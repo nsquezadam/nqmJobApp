@@ -57,7 +57,7 @@
 }
 /* titles*/
 .titles{ 
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-left: 3vw;
     width: 190px;
     height: 243px;
@@ -68,9 +68,18 @@
 }
 .principalTitles h1{
     font-family: 'Sansita', sans-serif;
-    z-index:10;
     color: #ffffff;
     font-size: 45px;
     line-height: 54px;  
-    margin-bottom: 5vh;
+    font-weight: 400;
+    margin-bottom: 1vh; 
 }
+.profesionTitle h2{
+    font-family: 'Sansita', sans-serif;
+    color: #4A2C40;
+    font-size: 40px;
+    line-height: 48px; 
+    font-weight: 400; 
+   
+}
+

@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react'
 import './InitialPage.css'
 import logo from '../../assets/icon/logoNqm.png'
+import BtnPrincipal from './BtnPrincipal'
 
 const InitialPage = () => {
   return (
@@ -20,16 +21,11 @@ const InitialPage = () => {
       <div className="principalTitles">
       <h1>Natalia Quezada</h1>
       </div>
-      <div>
-      <h2>Front end Developer </h2> 
+      <div className="profesionTitle">
+      <h2>Front end Developer</h2> 
       </div>
-      <div className="containerBtn">
-        <div className="btn">
-          <button className="btnInside"></button>
-
-        </div>
-
-      </div>
+      <BtnPrincipal />
+     
       </div>
       </div>
       </Fragment>
