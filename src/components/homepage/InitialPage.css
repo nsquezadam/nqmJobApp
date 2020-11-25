@@ -1,20 +1,20 @@
 /*background imagen and capes */
 .container_0 {
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 0;
     margin: 0;
     font-family: 'Sansita', sans-serif;
     background-image: url(../../assets/images/nqmFoto.jpg);
-    background-size:cover;
+    background-size: cover;
     background-position: bottom;
     opacity: 60%;
     position: absolute;
-    
+
 }
 
-.container_1{
-    background: linear-gradient(128.13deg, rgba(125, 55, 128, 0.3) 28.01%, rgba(125, 55, 128, 0) 97.4%); 
+.container_1 {
+    background: linear-gradient(128.13deg, rgba(125, 55, 128, 0.3) 28.01%, rgba(125, 55, 128, 0) 97.4%);
     z-index: 1;
     width: 100vw;
     height: 100vh;
@@ -22,7 +22,8 @@
     margin: 0;
     position: absolute;
 }
-.container_2{
+
+.container_2 {
     background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.8) -9.87%, rgba(74, 44, 64, 0.8) -9.86%, rgba(74, 44, 64, 0) 48.79%, rgba(74, 44, 64, 0.8) 92.51%);
     z-index: 2;
     width: 100vw;
@@ -33,53 +34,92 @@
     margin: 0;
     position: absolute;
 }
+
 /*body*/
-.body{
+.body {
     position: relative;
-    width:100vw;
-    height:100vh;
+    width: 100vw;
+    height: 100vh;
     padding: 0;
     margin: 0;
 }
+
 /* logo */
-.containerLogo{
-  
-    width:69px;
-    height: 81px;
-  
+.containerLogo {
+
+    width: 20vw;
+
+
+
 }
-.logoImg{
+
+.logoImg {
     width: 100%;
-    height:100%;
+    height: 100%;
     margin-top: 3vh;
     margin-left: 3vw;
 
 }
+
 /* titles*/
-.titles{ 
+.titles {
     margin-top: 25vh;
     margin-left: 3vw;
-    width: 190px;
-    height: 243px;
+    width: 59vw;
+    height: 42vh;
     display: flex;
     flex-direction: column;
 
 
 }
-.principalTitles h1{
+
+.principalTitles h1 {
     font-family: 'Sansita', sans-serif;
     color: #ffffff;
-    font-size: 45px;
-    line-height: 54px;  
+    font-size: 2.8125rem;
+    line-height: 54px;
     font-weight: 400;
-    margin-bottom: 1vh; 
-}
-.profesionTitle h2{
-    font-family: 'Sansita', sans-serif;
-    color: #4A2C40;
-    font-size: 40px;
-    line-height: 48px; 
-    font-weight: 400; 
-   
+    margin-bottom: 1vh;
 }
 
+.profesionTitle h2 {
+    font-family: 'Sansita', sans-serif;
+    color: #4A2C40;
+    font-size: 2.5rem;
+    line-height: 48px;
+    font-weight: 400;
+
+}
+
+/* container navbar*/
+.containerNavbar {
+    margin: 0;
+    padding: 0;
+}
+
+/* responsive media query*/
+@media screen and (min-width: 550px) {
+
+    .container_0 {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        font-family: 'Sansita', sans-serif;
+        background-image: url(../../assets/images/nqmprueba1.jpg);
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        opacity: 60%;
+        position: absolute;
+
+    }
+
+    /* logo */
+    .containerLogo {
+        width: 7vw;
+    }
+
+
+
+}
