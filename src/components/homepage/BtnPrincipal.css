@@ -1,0 +1,28 @@
+.containerBtn{
+    display: flex;
+    margin-top: 5vh;
+   
+}
+.btn{
+    background-color: transparent;
+    border: 1px solid #E9BD43;
+    box-sizing: border-box;
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.btnInside{
+    width: 180px;
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    color: #4A2C40;
+    font-family: 'Sansita', sans-serif;
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 400;
+    background: #E9BD43;
+    align-self: center;
+}
