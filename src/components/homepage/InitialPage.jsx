@@ -1,8 +1,8 @@
 import React, { Fragment } from "react";
-import "./InitialPage.css";
-import logo from "../../assets/icon/logoNqm.svg";
+import "../../assets/styles/homepage/InitialPage.css";
 import BtnPrincipal from "./BtnPrincipal";
 import NavBar from "./Navbar";
+import Logo from "./Logo";
 
 const InitialPage = () => {
   return (
@@ -13,10 +13,7 @@ const InitialPage = () => {
         </div>
       </div>
       <div className="body">
-        <div className="containerLogo">
-          <img className="logoImg" src={logo} alt="LogoNqm" />
-        </div>
-
+        <Logo />
         <div className="titles">
           <div className="principalTitles">
             <h1>Natalia Quezada</h1>

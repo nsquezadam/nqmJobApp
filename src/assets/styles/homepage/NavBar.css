@@ -13,7 +13,7 @@
 .objectLineUp {
     position: absolute;
     width: 0;
-    height: 33vh;
+    height: 30vh;
     top: 0px;
     border: 1px solid #E9BD43;
     right: 7vw;
@@ -24,30 +24,19 @@
 .btninitial {
     display: none;
     position: absolute;
-    /* width: 5vw;
-height: 2.81690vh; */
     align-self: center;
-    top: 40.49vh;
-    /* background: #E9BD43;
-    border: 1px solid #E9BD43;
-    box-sizing: border-box;
-    border-radius: 8pt; */
+    top: 35vh;
 }
 
 .homeInitial {
     /* display: none; */
     position: absolute;
     text-decoration: none;
-    align-self: flex-start;
-
     color: #E9BD43;
     font-family: 'Sarabun', sans-serif;
-    font-size: 1.1rem;
-    top: 36.97vh;
-    align-self: center;
-
-
-
+    font-size: 1rem;
+    top: 35vh;
+    left: 1vw;
 }
 
 /* tratanto de  ejecutar el hover*/
@@ -59,43 +48,68 @@ height: 2.81690vh; */
 } */
 .aboutMe {
     position: absolute;
-    width: 8px;
-    height: 8px;
     align-self: center;
-    top: 47.53521126760563vh;
-    border: 0.5px solid #E9BD43;
-    box-sizing: border-box;
-    border-radius: 4pt;
+    top: 45vh;
+}
+
+
+.homeAbout {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    align-self: flex-start;
+
+    color: #E9BD43;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.1rem;
+    top: 45vh;
+    align-self: center;
 }
 
 .proyects {
     position: absolute;
-    width: 8px;
-    height: 8px;
     align-self: center;
-    top: 56.33802816901409vh;
-    border: 0.5px solid #E9BD43;
-    box-sizing: border-box;
-    border-radius: 4pt;
+    top: 55vh;
+
+}
+
+.homeProyects {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    align-self: flex-start;
+
+    color: #E9BD43;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.1rem;
+    top: 55vh;
+    align-self: center;
 }
 
 .contact {
     position: absolute;
-    width: 10px;
-    height: 10px;
     align-self: center;
-    top: 65.14084507042253vh;
-    border: 0.5px solid #E9BD43;
-    box-sizing: border-box;
-    border-radius: 4pt;
+    top: 65vh;
+}
 
+.homeProyects {
+    display: none;
+    position: absolute;
+    text-decoration: none;
+    align-self: flex-start;
+
+    color: #E9BD43;
+    font-family: 'Sarabun', sans-serif;
+    font-size: 1.1rem;
+    top: 65vh;
+    align-self: center;
 }
 
 .objectLineDown {
     position: absolute;
     width: 0;
-    height: 17.605vh;
-    top: 72.18vh;
+    height: 17vh;
+    top: 75vh;
     border: 1px solid #E9BD43;
     right: 7vw;
     left: 7vw;
@@ -105,9 +119,9 @@ height: 2.81690vh; */
 
 .containerBtnDown {
     width: 9.6875vw;
-    height: 5.457746478873239vh;
+    height: 6vh;
     position: absolute;
-    bottom: 1.7605633802816902vh;
+    bottom: 2vh;
     align-self: center;
 
 }
@@ -120,14 +134,28 @@ height: 2.81690vh; */
 
 @media screen and (min-width: 550px) {
     .navBar {
-        width: 10vw;
+        width: 11vw;
+    }
+
+    .objectLineDown {
+        position: absolute;
+        width: 0;
+        height: 17vh;
+        top: 73vh;
+        border: 1px solid #E9BD43;
+
+    }
+
+    .containerBtnDown {
+        position: absolute;
+        bottom: 0;
+        align-self: center;
     }
 
     .btnDown {
-        right: 2vw;
-        left: 2vw;
-        bottom: 1vw;
-
+        right: 1vw;
+        left: 1.5vw;
+        bottom: 2vw;
     }
 
 

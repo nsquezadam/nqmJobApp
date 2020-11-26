@@ -5,8 +5,10 @@
     padding: 0;
     margin: 0;
     font-family: 'Sansita', sans-serif;
-    background-image: url(../../assets/images/nqmFoto.jpg);
+    background-image: url(../../images/nqmFoto.jpg);
+    -webkit-background-size: cover;
     background-size: cover;
+    -webkit-background-position: bottom;
     background-position: bottom;
     opacity: 60%;
     position: absolute;
@@ -46,11 +48,7 @@
 
 /* logo */
 .containerLogo {
-
     width: 20vw;
-
-
-
 }
 
 .logoImg {
@@ -63,8 +61,8 @@
 
 /* titles*/
 .titles {
-    margin-top: 25vh;
-    margin-left: 3vw;
+    margin-top: 20vh;
+    margin-left: 4vw;
     width: 59vw;
     height: 42vh;
     display: flex;
@@ -106,7 +104,7 @@
         padding: 0;
         margin: 0;
         font-family: 'Sansita', sans-serif;
-        background-image: url(../../assets/images/nqmprueba1.jpg);
+        background-image: url(../../images/nqmprueba1.jpg);
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center;
