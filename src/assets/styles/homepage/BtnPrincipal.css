@@ -28,3 +28,19 @@
     background: #E9BD43;
     align-self: center;
 }
+
+@media screen and (min-width: 550px) {
+    .btn {
+        width: 317px;
+        height: 97.68px;
+    }
+
+    .btnInside {
+        width: 280.17px;
+        height: 64.51px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
+}
