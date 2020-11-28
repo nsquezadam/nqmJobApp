@@ -1,0 +1,14 @@
+.aboutPage {
+  background-color: FFFFFF;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.aboutPage h1 {
+  font-family: sacramento;
+}
+
+.aboutPage p {
+  font-family: sansita;
+}
