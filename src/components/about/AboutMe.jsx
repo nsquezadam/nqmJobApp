@@ -3,7 +3,7 @@ import "../../assets/styles/about/AboutMe.css";
 
 const AboutMe = () => {
   return (
-    <div className="aboutPage">
+    <div id="aboutPage" className="aboutPage">
       <h1>Sobre Mi</h1>
       <p>
         Natalia Quezada es mi nombre, soy Front end Developer, soy egresada de

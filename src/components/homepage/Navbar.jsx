@@ -3,6 +3,9 @@ import "../../assets/styles/homepage/NavBar.css";
 import ArrowDown from "../../assets/icon/arrowDown.svg";
 
 const Navbar = () => {
+  const downPage = () => {
+    console.log("click it");
+  };
   return (
     <div className="navBar">
       <div className="objectLineUp"></div>
@@ -12,7 +15,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="aboutMe">
-        <a href="/" className="homeAbout">
+        <a href="#aboutPage" className="homeAbout">
           Sobre mi
         </a>
       </div>
@@ -28,7 +31,12 @@ const Navbar = () => {
       </div>
       <div className="objectLineDown"></div>
       <div className="containerBtnDown">
-        <img className="btnDown" src={ArrowDown} alt="Arrow" />
+        <img
+          className="btnDown"
+          src={ArrowDown}
+          alt="Arrow"
+          onClick={downPage}
+        />
       </div>
     </div>
   );
