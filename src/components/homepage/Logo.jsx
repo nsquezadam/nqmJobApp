@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import logo from "../../assets/icon/logoNqm.svg";
 
 const Logo = () => {
   return (
-    <div className="containerLogo">
+    <Fragment>
       <img className="logoImg" src={logo} alt="LogoNqm" />
-    </div>
+    </Fragment>
   );
 };
 

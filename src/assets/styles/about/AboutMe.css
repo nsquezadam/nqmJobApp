@@ -18,9 +18,10 @@
 }
 
 /* logo */
-.containerLogo {
+.containerLogoAboutMe {
   width: 20vw;
   position: absolute;
+
 }
 
 .logoImg {

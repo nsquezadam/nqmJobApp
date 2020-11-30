@@ -13,7 +13,9 @@ const AboutMe = () => {
         </div>
       </div>
       <body>
-        <Logo />
+        <div className="containerLogoAboutMe">
+          <Logo />
+        </div>
       </body>
     </Fragment>
   );

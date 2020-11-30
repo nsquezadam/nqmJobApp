@@ -109,13 +109,22 @@
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center;
-        opacity: 60%;
+        opacity: 0.6;
         position: absolute;
     }
 
+
     /* logo */
     .containerLogo {
-        width: 6vw;
+        width: 7vw;
+    }
+
+    .logoImg {
+        width: 100%;
+        height: 100%;
+        margin-top: 3vh;
+        margin-left: 3vw;
+
     }
 
     /* titles*/
