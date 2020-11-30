@@ -16,6 +16,8 @@
 }
 
 .btnInside {
+    text-decoration: none;
+    padding-top: 1.3vh;
     width: 180px;
     height: 50px;
     border-style: none;
@@ -27,4 +29,20 @@
     font-weight: 400;
     background: #E9BD43;
     align-self: center;
+}
+
+@media screen and (min-width: 550px) {
+    .btn {
+        width: 317px;
+        height: 97.68px;
+    }
+
+    .btnInside {
+        width: 280.17px;
+        height: 64.51px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+
 }
