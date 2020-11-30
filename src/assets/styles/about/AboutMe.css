@@ -1,13 +1,77 @@
-.aboutPage {
+.aboutPageFirstCape {
+  position: absolute;
   background-color: FFFFFF;
   width: 100vw;
   height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.aboutPageSecondCape {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.7) -70.22%, rgba(74, 44, 64, 0.7) -70.21%, rgba(74, 44, 64, 0) -11.56%, rgba(74, 44, 64, 0.7) 32.17%);
+  ;
+}
+
+/* logo */
+.containerLogo {
+  width: 20vw;
+  position: absolute;
+}
+
+.logoImg {
+
+  width: 100%;
+  height: 100%;
+  margin-top: 3vh;
+  margin-left: 3vw;
+
 
 }
 
-.aboutPage h1 {
-  font-family: sacramento;
+.aboutContainerText {
+  position: absolute;
+  background-image: url(../../images/backgroundcel.svg);
+  background-repeat: no-repeat;
+
+
+
 }
+
+.aboutPageThirdCape {
+  position: absolute;
+  background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
+  opacity: 0.2;
+  transform: rotate(180deg);
+}
+
+
+
+.containerTextP {
+  width: 50vw;
+  height: 60vh;
+  position: absolute;
+  background-color: cornflowerblue;
+  top: 5vh;
+}
+
+
+.textP {
+  position: absolute;
+  top: 3vh;
+  left: 10vw;
+  font-size: 14px;
+  color: #ffffff;
+
+
+}
+
+
+
 
 .aboutPage p {
   font-family: sansita;

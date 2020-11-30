@@ -10,7 +10,7 @@
     background-size: cover;
     -webkit-background-position: bottom;
     background-position: bottom;
-    opacity: 60%;
+    opacity: 0.6;
     position: absolute;
 
 }

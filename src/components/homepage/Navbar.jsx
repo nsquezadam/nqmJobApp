@@ -3,8 +3,10 @@ import "../../assets/styles/homepage/NavBar.css";
 import ArrowDown from "../../assets/icon/arrowDown.svg";
 
 const Navbar = () => {
-  const downPage = () => {
+  //const [positionPage, setPositionPage] = useState[0];
+  const downPage = (e) => {
     console.log("click it");
+    console.log(e.target.element);
   };
   return (
     <div className="navBar">
