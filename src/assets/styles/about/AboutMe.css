@@ -34,10 +34,15 @@
 
 }
 
-.aboutContainerText {
+.aboutContainerText svg {
   position: absolute;
-  background-image: url(../../images/backgroundcel.svg);
+  /* background-image: url(../../images/backgroundcel.svg); */
   background-repeat: no-repeat;
+  top: 15vh;
+  width: 103%;
+
+  height: 80%;
+  align-self: center;
 
 
 
@@ -76,4 +81,16 @@
 
 .aboutPage p {
   font-family: sansita;
+}
+
+
+
+@media screen and (min-width: 550px) {
+
+  /* logo */
+  .containerLogoAboutMe {
+    width: 7vw;
+    position: absolute;
+
+  }
 }

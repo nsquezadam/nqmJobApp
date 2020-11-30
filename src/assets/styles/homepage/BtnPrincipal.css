@@ -1,48 +1,56 @@
 .containerBtn {
-    display: flex;
-    margin-top: 2vh;
+
+    padding: 0;
+    margin: 0;
+
 
 }
 
 .btn {
+    width: 62.5vw;
+    height: 12.32394366197183vh;
     background-color: transparent;
-    border: 1px solid #E9BD43;
-    box-sizing: border-box;
-    width: 200px;
-    height: 70px;
+    border: 2px solid #E9BD43;
     display: flex;
     justify-content: space-around;
+    position: absolute;
 
 }
 
 .btnInside {
-    text-decoration: none;
-    padding-top: 1.3vh;
-    width: 180px;
-    height: 50px;
-    border-style: none;
-    text-align: center;
-    color: #4A2C40;
-    font-family: 'Sansita', sans-serif;
-    font-size: 24px;
-    line-height: 28.8px;
-    font-weight: 400;
-    background: #E9BD43;
+    position: absolute;
+    width: 56.25vw;
+    height: 8.80281690140845vh;
+    background-color: #E9BD43;
     align-self: center;
+    display: flex;
+    font-size: 4rem;
+    justify-content: space-around;
+    line-height: 0.45em;
+    font-weight: 400;
+
 }
 
-@media screen and (min-width: 550px) {
+.btnInside a {
+    /* position: absolute; */
+    text-decoration: none;
+    align-self: center;
+    font-family: 'Sansita', sans-serif;
+    color: #4A2C40;
+
+}
+
+
+@media only screen and (min-width: 1440px) {
     .btn {
-        width: 317px;
-        height: 97.68px;
+        width: 22.22222222222222vw;
+        height: 11.11111111111111vh;
     }
 
     .btnInside {
-        width: 280.17px;
-        height: 64.51px;
-        font-size: 30px;
-        line-height: 36px;
+        width: 20.833333333333336vw;
+        height: 8.88888888888889vh;
+        font-size: 3rem;
     }
-
 
 }
