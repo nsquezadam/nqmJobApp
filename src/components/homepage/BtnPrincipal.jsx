@@ -8,9 +8,11 @@ const BtnPrincipal = () => {
   return (
     <div className="containerBtn">
       <div className="btn">
-        <a href="#aboutPage" className="btnInside" onClick={handleClickAbout}>
-          ¡Conóceme!
-        </a>
+        <div className="btnInside">
+          <a href="#aboutPage" onClick={handleClickAbout}>
+            ¡Conóceme!
+          </a>
+        </div>
       </div>
     </div>
   );

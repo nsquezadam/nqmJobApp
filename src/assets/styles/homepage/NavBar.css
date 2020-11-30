@@ -9,16 +9,29 @@
     flex-direction: column;
     position: absolute;
 
+
 }
 
 .objectLineUp {
+    display: flex;
     position: absolute;
     width: 0;
     height: 35vh;
     top: 0px;
-    border: 1px solid #E9BD43;
-    right: 5vw;
-    left: 8vw;
+    border: 1.5px solid #E9BD43;
+    align-self: center;
+    justify-content: space-around;
+
+}
+
+.initial {
+    align-self: center;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 40vh;
+    display: flex;
+    justify-content: space-around;
 }
 
 .initial a {
@@ -26,9 +39,7 @@
     text-decoration: none;
     color: #E9BD43;
     font-family: 'Sarabun', sans-serif;
-    font-size: 1.2rem;
-    top: 40vh;
-    right: 3vw;
+    font-size: 2.8rem;
 }
 
 .initial a:hover {
@@ -36,26 +47,26 @@
     color: #7D3780;
 }
 
-/* tratanto de  ejecutar el hover*/
-/* .initial:hover:after{
-    content: 'Home';
-    color: #E9BD43;
-    font-family: 'Sarabun', sans-serif;
-    align-self:flex-start;
-} */
+
+
+.aboutMe {
+    align-self: center;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 48vh;
+    display: flex;
+    justify-content: space-around;
+
+}
 
 .aboutMe a {
-    text-align: center;
     position: absolute;
     text-decoration: none;
-    align-self: flex-start;
     color: #E9BD43;
     font-family: 'Sarabun', sans-serif;
-    font-size: 0.8rem;
-    top: 48vh;
-    right: 2.5vw;
-
-
+    font-size: 2rem;
+    text-align: center;
 }
 
 .aboutMe a:hover {
@@ -63,16 +74,25 @@
     color: #7D3780;
 }
 
+.proyects {
+    align-self: center;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 56vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .proyects a {
     text-align: center;
     position: absolute;
     text-decoration: none;
-    align-self: flex-start;
     color: #E9BD43;
     font-family: 'Sarabun', sans-serif;
-    font-size: 0.8rem;
-    top: 56vh;
-    right: 3vw;
+    font-size: 2rem;
+
 }
 
 .proyects a:hover {
@@ -80,17 +100,26 @@
     color: #7D3780;
 }
 
+.contact {
+    align-self: center;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: 64vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
 .contact a {
     text-align: center;
     position: absolute;
     text-decoration: none;
-    align-self: flex-start;
     color: #E9BD43;
     font-family: 'Sarabun', sans-serif;
-    font-size: 0.8rem;
-    top: 64vh;
-    right: 3vw;
+    font-size: 2rem;
 }
+
 
 .contact a:hover {
     cursor: pointer;
@@ -100,81 +129,68 @@
 
 
 .objectLineDown {
+    display: flex;
     position: absolute;
     width: 0;
     height: 17vh;
     top: 72vh;
-    border: 1px solid #E9BD43;
-    right: 5vw;
-    left: 8vw;
+    border: 1.5px solid #E9BD43;
+    justify-content: center;
+    align-self: center;
+
 
 
 }
 
 .containerBtnDown {
-    width: 9.6875vw;
-    height: 6vh;
+    display: flex;
     position: absolute;
-    bottom: 4vh;
-    right: 5vw;
-    left: 3.5vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+    height: 6vh;
+    align-self: center;
+    justify-content: space-around;
+    bottom: 3vh;
+
 
 
 }
 
 .btnDown {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+
+    width: 90%;
+    height: 90%;
+
 }
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:1440px) {
+
     .navBar {
         width: 10vw;
+        height: 100vh;
+
     }
 
     .objectLineUp {
-        left: 7vw;
+        border: 1px solid #E9BD43;
     }
 
     .initial a {
         font-size: 1.5rem;
-        top: 40vh;
-        right: 1.5vw;
     }
 
     .aboutMe a {
-        font-size: 1rem;
-        top: 48vh;
-        right: 1.5vw;
+        font-size: 1.1rem;
     }
 
     .proyects a {
-        font-size: 1rem;
-        top: 56vh;
-        right: 1.5vw;
+        font-size: 1.1rem;
     }
 
     .contact a {
-        font-size: 1rem;
-        top: 64vh;
-        right: 1.5vw;
-    }
-
-    .containerBtnDown {
-        position: absolute;
-        bottom: 0;
-        align-self: center;
-    }
-
-    .objectLineDown {
-        top: 72vh;
-        left: 7vw;
-    }
-
-    .btnDown {
-        right: 1.3vw;
-        bottom: 2vw;
+        font-size: 1.1rem;
     }
 
 

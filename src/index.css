@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,500;1,600;1,700;1,800&display=swap');
 
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 16px; */
+
+}
+
 /* bring in normalize.css styles */
 /*font-family: 'Sacramento', cursive;
 
@@ -17,6 +27,7 @@ font-family: 'Sarabun', sans-serif;*/
  */
 
 html {
+
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
@@ -384,12 +395,4 @@ template {
 
 [hidden] {
   display: none;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 16px;
 }

@@ -49,6 +49,7 @@
 /* logo */
 .containerLogo {
     width: 20vw;
+    position: absolute;
 }
 
 .logoImg {
@@ -61,9 +62,10 @@
 
 /* titles*/
 .titles {
-    margin-top: 25vh;
+    top: 45vh;
+    position: absolute;
     margin-left: 4vw;
-    width: 59vw;
+    width: 65vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -74,71 +76,51 @@
     margin: 0;
     font-family: 'Sansita', sans-serif;
     color: #ffffff;
-    font-size: 3.5rem;
-    line-height: 54px;
+    font-size: 11rem;
+    line-height: 0.895em;
     font-weight: 400;
-    margin-bottom: 2vh;
+    margin-bottom: 3vh;
 }
 
 .profesionTitle h2 {
     font-family: 'Sansita', sans-serif;
     color: #4A2C40;
-    font-size: 3rem;
-    line-height: 48px;
+    font-size: 8rem;
+    line-height: 0.895em;
     font-weight: 400;
     margin-bottom: 3vh;
 
 }
 
-/* container navbar*/
-.containerNavbar {
-    margin: 0;
-    padding: 0;
-}
+
 
 /* responsive media query*/
-@media screen and (min-width: 550px) {
+@media only screen and (min-width: 1440px) {
 
     .container_0 {
-        width: 100vw;
-        height: 100vh;
-        padding: 0;
-        margin: 0;
-        font-family: 'Sansita', sans-serif;
         background-image: url(../../images/nqmprueba1.jpg);
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-position: center;
-        opacity: 0.6;
-        position: absolute;
     }
-
 
     /* logo */
     .containerLogo {
         width: 7vw;
     }
 
-    .logoImg {
-        width: 100%;
-        height: 100%;
-        margin-top: 3vh;
-        margin-left: 3vw;
-
-    }
-
     /* titles*/
     .titles {
-        margin-top: 6vh;
+        top: 25vh;
+        position: absolute;
         margin-left: 4vw;
-        width: 35vw;
-
+        width: 30vw;
+        height: 30vh;
         display: flex;
         flex-direction: column;
-
     }
 
+
+
     .principalTitles h1 {
+
         margin: 0;
         padding: 0;
         font-family: 'Sansita', sans-serif;
