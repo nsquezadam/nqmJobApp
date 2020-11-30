@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className="aboutMe">
         <a href="#aboutPage" className="homeAbout">
-          Sobre mi
+          Sobre Mi
         </a>
       </div>
       <div className="proyects">
