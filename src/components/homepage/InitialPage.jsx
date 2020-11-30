@@ -13,7 +13,10 @@ const InitialPage = () => {
         </div>
       </div>
       <div className="body">
-        <Logo />
+        <div className="containerLogo">
+          <Logo />
+        </div>
+
         <div className="titles">
           <div className="principalTitles">
             <h1>Natalia Quezada</h1>
