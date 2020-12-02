@@ -9,6 +9,7 @@
 
 .aboutPageSecondCape {
   position: absolute;
+  z-index: 1;
   width: 100vw;
   height: 100vh;
   padding: 0;
@@ -17,75 +18,156 @@
   ;
 }
 
-/* logo */
-.containerLogoAboutMe {
-  width: 20vw;
-  position: absolute;
+/* background: rgba(0, 0, 41, 0.5); */
 
-}
+.aboutContainerText {
+  width: 100vw;
+  height: 100vh;
 
-.logoImg {
-
-  width: 100%;
-  height: 100%;
-  margin-top: 3vh;
-  margin-left: 3vw;
-
-
-}
-
-.aboutContainerText svg {
-  position: absolute;
-  /* background-image: url(../../images/backgroundcel.svg); */
+  background-image: url(../../images/backgroundcel.svg);
   background-repeat: no-repeat;
-  top: 15vh;
-  width: 103%;
-
-  height: 80%;
-  align-self: center;
-
-
+  background-position: 30% 50%;
+  background-size: 80%;
+  z-index: 3;
 
 }
 
 .aboutPageThirdCape {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
+  z-index: 4;
   background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
   opacity: 0.2;
   transform: rotate(180deg);
 }
 
 
+.bodyAboutMe {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: #ffffff;
 
-.containerTextP {
-  width: 50vw;
-  height: 60vh;
-  position: absolute;
-  background-color: cornflowerblue;
-  top: 5vh;
 }
+
+/* logo */
+.containerLogoAboutMe {
+  width: 20vw;
+  position: absolute;
+  z-index: 5;
+
+}
+
+.logoImg {
+
+  width: 90%;
+  height: 90%;
+  margin-top: 2vh;
+  margin-left: 2vw;
+
+}
+
+.bodyAboutMe h2 {
+  margin-top: 5vh;
+  text-align: center;
+  font-family: 'Sacramento', 'sans-serif';
+  font-size: 4rem;
+}
+
+.textAboutme {
+  display: flex;
+
+  width: 100vw;
+  height: 45vh;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+/* .textAboutme h2 {
+  text-align: center;
+  color: #ffffff;
+} */
+
+
+.containerTexAndImg {
+  display: flex;
+  /* flex-direction: row; */
+
+  /* background-image: url('../../images/backgroundAbi.svg') 0 0 no-repeat; */
+  width: 100vw;
+}
+
 
 
 .textP {
+  width: 85vw;
+  display: flex;
+
+}
+
+.mePicture {
+  width: 60%;
+  float: right;
+  padding-left: 5px;
+
+  -webkit-shape-outside: url('../../images/me.svg');
+  -moz-shape-outside: url('../../images/me.svg');
+  -ms-shape-outside: url('../../images/me.svg');
+  -o-shape-outside: url('../../images/me.svg');
+  shape-outside: url('../../images/me.svg');
+
+}
+
+.textP p {
+  font-size: 1.9rem;
+  font-family: 'Sansita', 'sans-serif';
+  line-height: 1.600em;
+  margin-right: 1vw;
+  text-align: left;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  /* color: #FFFFFF; */
+}
+
+/* .containerPic {
+  top: 1vh;
+  width: 50vw;
   position: absolute;
-  top: 3vh;
-  left: 10vw;
-  font-size: 14px;
-  color: #ffffff;
+  left: 65vw;
+
+} */
+/* hobbies */
+.hobbies {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.containerHobbies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.containerHobbies img {
+  width: 20%;
+  height: 20%;
+  margin: 2vw;
 
 
 }
 
 
 
-
-.aboutPage p {
-  font-family: sansita;
-}
-
-
-
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 1440px) {
 
   /* logo */
   .containerLogoAboutMe {

@@ -1,6 +1,21 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/about/AboutMe.css";
 import Logo from "../homepage/Logo";
+import me from "../../assets/images/me.svg";
+// import agil from "../../assets/icon/abilities/agil.svg";
+// import analisis from "../../assets/icon/abilities/analisis.svg";
+// import autoaprendizaje from "../../assets/icon/abilities/autoaprendizaje.svg";
+// import gtiempo from "../../assets/icon/abilities/gtiempo.svg";
+// import resolucion from "../../assets/icon/abilities/resolucion.svg";
+// import teem from "../../assets/icon/abilities/teem.svg";
+import hobbike from "../../assets/icon/hobbies/hobbike.svg";
+import hobcards from "../../assets/icon/hobbies/hobcards.svg";
+import hobcinema from "../../assets/icon/hobbies/hobcinema.svg";
+import hobgamecel from "../../assets/icon/hobbies/hobgamecel.svg";
+import hobgameold from "../../assets/icon/hobbies/hobgameold.svg";
+import hobmusic from "../../assets/icon/hobbies/hobmusic.svg";
+import hobnetflix from "../../assets/icon/hobbies/hobnetflix.svg";
+import hobpaseo from "../../assets/icon/hobbies/hobpaseo.svg";
 
 const AboutMe = () => {
   return (
@@ -8,28 +23,64 @@ const AboutMe = () => {
       <div id="aboutPage" className="abouPAgeFirtsCape">
         <div className="aboutPageSecondCape">
           <div className="aboutContainerText">
-            <svg
-              width="268"
-              height="472"
-              viewBox="0 0 268 472"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M18.5028 26.4016C-29.5654 -11.5642 178.825 -12.4361 244.786 49.2773C310.748 110.991 135.665 294.519 244.786 387.851C353.907 481.182 44.902 517.461 8.54852 387.851C-27.805 258.24 66.571 64.3673 18.5028 26.4016Z"
-                fill="#000029"
-                fill-opacity="0.55"
-              />
-            </svg>
             <div className="aboutPageThirdCape"></div>
+            <body className="bodyAboutMe">
+              <div className="containerLogoAboutMe">
+                <Logo />
+              </div>
+              <h2>Sobre Mi</h2>
+              <div className="textAboutme">
+                <div className="containerTexAndImg">
+                  <div className="textP">
+                    <p>
+                      <img className="mePicture" src={me} alt="me" />
+                      Natalia Quezada es mi nombre, soy Front end Developer
+                      Junior , soy egresada de Laboratoria. Con mucha valentía
+                      dirigí mi rumbo a esta hermosa y apasionante profesión, me
+                      apasiona enormemente lo que hago. Soy mamá de un niño de
+                      10 años y un gatuno de 19 años. Llevo más de 15 años en el
+                      mundo laboral trabajando principalmente enfocada a los
+                      procesos de venta , servicio al cliente. Mi compromiso y
+                      meta siempre han sido enfocadas a seguir creciendo y
+                      desarrollandome como ser humano y profesional. Me gusta
+                      trabajar en equipo, aprender cosas nuevas he fortalecido
+                      en este tiempo mi capacidad de autoaprendizaje , enfrentar
+                      la incertidumbre y los cambios constantes que propone la
+                      vida .
+                    </p>
+                  </div>
+                  {/* <div className="containerPic"></div> */}
+                </div>
+              </div>
+              <div className="hobbies">
+                <h2>Hobbies</h2>
+                <div className="containerHobbies">
+                  <img src={hobbike} alt="hobbike" />
+                  <img src={hobnetflix} alt="hobnetflix" />
+                  <img src={hobcinema} alt="hobcinema" />
+                  <img src={hobgamecel} alt="hobgamecel" />
+                  <img src={hobgameold} alt="hobgameold" />
+                  <img src={hobmusic} alt="hobmusic" />
+                  <img src={hobcards} alt="hobcards" />
+
+                  <img src={hobpaseo} alt="hobpaseo" />
+                </div>
+              </div>
+              {/* <div className="softSkills">
+                <h2>Habilidades</h2>
+                <div className="containerSoftSkills">
+                  <img src={teem} alt="Teem" />
+                  <img src={agil} alt="Agil" />
+                  <img src={autoaprendizaje} alt="autoaprendizaje" />
+                  <img src={gtiempo} alt="tiempo" />
+                  <img src={resolucion} alt="resolucion" />
+                  <img src={analisis} alt="analisis" />
+                </div>
+              </div> */}
+            </body>
           </div>
         </div>
       </div>
-      <body>
-        <div className="containerLogoAboutMe">
-          <Logo />
-        </div>
-      </body>
     </Fragment>
   );
 };
