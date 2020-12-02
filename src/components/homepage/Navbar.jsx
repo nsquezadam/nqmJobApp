@@ -1,13 +1,12 @@
 import React from "react";
 import "../../assets/styles/homepage/NavBar.css";
 import ArrowDown from "../../assets/icon/arrowDown.svg";
-
+// import { useLocation } from "react-router-dom";
 const Navbar = () => {
   //const [positionPage, setPositionPage] = useState[0];
-  const downPage = (e) => {
-    console.log("click it");
-    console.log(e.target.element);
-  };
+
+  // let arrayIdRoutes = ["#aboutMe", "#proyects", "#contact"];
+
   return (
     <div className="navBar">
       <div className="objectLineUp"></div>
@@ -18,7 +17,7 @@ const Navbar = () => {
       </div>
       <div className="aboutMe">
         <a href="#aboutPage" className="homeAbout">
-          Sobre mi
+          Sobre Mi
         </a>
       </div>
       <div className="proyects">
@@ -33,12 +32,7 @@ const Navbar = () => {
       </div>
       <div className="objectLineDown"></div>
       <div className="containerBtnDown">
-        <img
-          className="btnDown"
-          src={ArrowDown}
-          alt="Arrow"
-          onClick={downPage}
-        />
+        <img className="btnDown" src={ArrowDown} alt="Arrow" />
       </div>
     </div>
   );
