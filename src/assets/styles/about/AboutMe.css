@@ -27,7 +27,7 @@
   background-image: url(../../images/backgroundcel.svg);
   background-repeat: no-repeat;
   background-position: 30% 50%;
-  background-size: 80%;
+  background-size: cover;
   z-index: 3;
 
 }
