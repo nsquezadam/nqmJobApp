@@ -4,7 +4,8 @@ import logo from "../../assets/icon/logoNqm.svg";
 const Logo = () => {
   return (
     <Fragment>
-      <img className="logoImg" src={logo} alt="LogoNqm" />
+      {" "}
+      <img className="logoImg" id="logoImg" src={logo} alt="LogoNqm" />{" "}
     </Fragment>
   );
 };

@@ -1,5 +1,6 @@
 .aboutPageFirstCape {
-  position: absolute;
+  display: flex;
+  /* position: absolute; */
   background-color: FFFFFF;
   width: 100vw;
   height: 100vh;
@@ -8,14 +9,15 @@
 }
 
 .aboutPageSecondCape {
-  position: absolute;
+  display: flex;
+  /* position: absolute; */
   z-index: 1;
   width: 100vw;
   height: 100vh;
   padding: 0;
   margin: 0;
   background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.7) -70.22%, rgba(74, 44, 64, 0.7) -70.21%, rgba(74, 44, 64, 0) -11.56%, rgba(74, 44, 64, 0.7) 32.17%);
-  ;
+
 }
 
 /* background: rgba(0, 0, 41, 0.5); */
@@ -23,7 +25,6 @@
 .aboutContainerText {
   width: 100vw;
   height: 100vh;
-
   background-image: url(../../images/backgroundcel.svg);
   background-repeat: no-repeat;
   background-position: 30% 50%;
@@ -38,6 +39,7 @@
   width: 100vw;
   height: 100vh;
   position: absolute;
+  /* display: flex; */
   z-index: 4;
   background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
   opacity: 0.2;
@@ -48,9 +50,10 @@
 .bodyAboutMe {
   padding: 0;
   margin: 0;
-  width: 100vw;
+  width: 85vw;
   height: 100vh;
   color: #ffffff;
+  overflow: hidden;
 
 }
 
@@ -69,6 +72,7 @@
   margin-top: 2vh;
   margin-left: 2vw;
 
+
 }
 
 .bodyAboutMe h2 {
@@ -82,9 +86,9 @@
   display: flex;
 
   width: 100vw;
-  height: 45vh;
-  margin-top: 10vh;
-  margin-left: 10vw;
+  height: 40vh;
+  margin-top: 8vh;
+  margin-left: 5vw;
 }
 
 /* .textAboutme h2 {
@@ -104,7 +108,7 @@
 
 
 .textP {
-  width: 85vw;
+  width: 75vw;
   display: flex;
 
 }
@@ -112,7 +116,7 @@
 .mePicture {
   width: 60%;
   float: right;
-  padding-left: 5px;
+
 
   -webkit-shape-outside: url('../../images/me.svg');
   -moz-shape-outside: url('../../images/me.svg');
@@ -123,14 +127,15 @@
 }
 
 .textP p {
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-family: 'Sansita', 'sans-serif';
-  line-height: 1.600em;
+  line-height: 1.700em;
   margin-right: 1vw;
   text-align: left;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
+
   /* color: #FFFFFF; */
 }
 
@@ -143,6 +148,7 @@
 } */
 /* hobbies */
 .hobbies {
+  margin-top: 2.5vh;
   display: flex;
   flex-direction: column;
 
@@ -167,12 +173,62 @@
 
 
 
+
 @media screen and (min-width: 1440px) {
+
+  .aboutContainerText {
+    width: 90vw;
+    height: 100vh;
+    background-image: url(../../images/backgroundAbi.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 95% 95%;
+    z-index: 3;
+
+  }
+
+  .bodyAboutMe {
+    width: 100vw;
+  }
+
+  .textP p {
+    font-size: 1rem;
+    line-height: 2em;
+    text-align: center;
+
+    /* color: #FFFFFF; */
+  }
+
+
+  .mePicture {
+    width: 30%;
+  }
 
   /* logo */
   .containerLogoAboutMe {
     width: 7vw;
     position: absolute;
+  }
+
+  #logoImg {
+    fill: #4A2C40;
+    z-index: 6;
+  }
+
+
+
+  .hobbies {
+    width: 90vw;
 
   }
+
+  .containerHobbies img {
+    width: 10%;
+    height: 10%;
+    margin: 2vw;
+
+
+  }
+
+
 }
