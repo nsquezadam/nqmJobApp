@@ -46,20 +46,6 @@
     margin: 0;
 }
 
-/* logo */
-.containerLogo {
-    width: 20vw;
-    position: absolute;
-}
-
-.logoImg {
-    width: 100%;
-    height: 100%;
-    margin-top: 3vh;
-    margin-left: 3vw;
-
-}
-
 /* titles*/
 .titles {
     top: 45vh;
@@ -101,10 +87,7 @@
         background-image: url(../../images/nqmprueba1.jpg);
     }
 
-    /* logo */
-    .containerLogo {
-        width: 7vw;
-    }
+
 
     /* titles*/
     .titles {

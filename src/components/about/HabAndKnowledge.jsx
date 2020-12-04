@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Logo from "../homepage/Logo";
+
 import BtnCv from "../about/BtnCv";
 import "../../../src/assets/styles/about/habAndKnowledge.css";
 
@@ -28,9 +28,6 @@ const HabAndKnowledge = () => {
           <div className="containerSkillsThirdCape">
             <div className="habAndKnowCapeForth"></div>
             <body className="bodyHabAndKnow">
-              <div className="containerLogoHabAndKnow">
-                <Logo />
-              </div>
               <div className="containerTitleAndHabandKnow">
                 <div className="containerTitleAndHab">
                   <h2>Habilidades</h2>

@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/about/AboutMe.css";
-import Logo from "../homepage/Logo";
+
 import me from "../../assets/images/me.svg";
 
 import hobbike from "../../assets/icon/hobbies/hobbike.svg";
@@ -21,9 +21,6 @@ const AboutMe = () => {
           <div className="aboutContainerText">
             <div className="aboutPageThirdCape"></div>
             <body className="bodyAboutMe">
-              <div className="containerLogoAboutMe">
-                <Logo />
-              </div>
               <h2>Sobre Mi</h2>
               <div className="textAboutme">
                 <div className="containerTexAndImg">

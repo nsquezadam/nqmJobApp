@@ -4,7 +4,7 @@ import AboutMe from "../src/components/about/AboutMe";
 import HabAndKnowledge from "../src/components/about/HabAndKnowledge";
 import HomeProyects from "../src/components/proyects/HomeProyects";
 import Navbar from "../src/components/homepage/Navbar";
-
+import Logo from "../src/components/homepage/Logo";
 import "./App.css";
 
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -12,9 +12,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      {" "}
-      <InitialPage /> <AboutMe /> <HabAndKnowledge /> <HomeProyects />{" "}
-      <Navbar />{" "}
+      <Logo />
+      <InitialPage />
+      <AboutMe /> <HabAndKnowledge />
+      <HomeProyects />
+      <Navbar />
     </div>
   );
 }

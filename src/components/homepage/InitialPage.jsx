@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import "../../assets/styles/homepage/InitialPage.css";
 import BtnPrincipal from "./BtnPrincipal";
 //import NavBar from "./Navbar";
-import Logo from "./Logo";
 
 const InitialPage = () => {
   return (
@@ -13,10 +12,6 @@ const InitialPage = () => {
         </div>
       </div>
       <div className="body">
-        <div className="containerLogo">
-          <Logo />
-        </div>
-
         <div className="titles">
           <div className="principalTitles">
             <h1>Natalia Quezada</h1>

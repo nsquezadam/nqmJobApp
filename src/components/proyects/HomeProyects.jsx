@@ -5,17 +5,11 @@ import bk from "../../assets/images/proyects/bk.svg";
 import wit from "../../assets/images/proyects/wit.svg";
 import pkw from "../../assets/images/proyects/pkw.svg";
 import BtnMas from "./BtnMas";
-import Logo from "../homepage/Logo";
 
 const HomeProyects = () => {
   return (
     <body id="homeProyect" className="bodyHomeProyects">
-      <div className="containerTitleLogo">
-        <div className="containerLogoProyects">
-          <Logo />
-        </div>
-        <h2>Proyectos</h2>
-      </div>
+      <h2>Proyectos</h2>
 
       <div className="containerHomeProyects">
         <div className="containerProyect">
