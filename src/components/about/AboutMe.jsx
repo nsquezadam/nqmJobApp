@@ -2,12 +2,7 @@ import React, { Fragment } from "react";
 import "../../assets/styles/about/AboutMe.css";
 import Logo from "../homepage/Logo";
 import me from "../../assets/images/me.svg";
-// import agil from "../../assets/icon/abilities/agil.svg";
-// import analisis from "../../assets/icon/abilities/analisis.svg";
-// import autoaprendizaje from "../../assets/icon/abilities/autoaprendizaje.svg";
-// import gtiempo from "../../assets/icon/abilities/gtiempo.svg";
-// import resolucion from "../../assets/icon/abilities/resolucion.svg";
-// import teem from "../../assets/icon/abilities/teem.svg";
+
 import hobbike from "../../assets/icon/hobbies/hobbike.svg";
 import hobcards from "../../assets/icon/hobbies/hobcards.svg";
 import hobcinema from "../../assets/icon/hobbies/hobcinema.svg";
@@ -17,10 +12,11 @@ import hobmusic from "../../assets/icon/hobbies/hobmusic.svg";
 import hobnetflix from "../../assets/icon/hobbies/hobnetflix.svg";
 import hobpaseo from "../../assets/icon/hobbies/hobpaseo.svg";
 
+//import Navbar from "../homepage/Navbar";
 const AboutMe = () => {
   return (
     <Fragment>
-      <div id="aboutPage" className="abouPAgeFirtsCape">
+      <div id="aboutPage" className="abouPageFirtsCape">
         <div className="aboutPageSecondCape">
           <div className="aboutContainerText">
             <div className="aboutPageThirdCape"></div>
@@ -34,7 +30,7 @@ const AboutMe = () => {
                   <div className="textP">
                     <p>
                       <img className="mePicture" src={me} alt="me" />
-                      Natalia Quezada es mi nombre, soy Front end Developer
+                      Natalia Quezada es mi nombre, soy Front-end Developer
                       Junior , soy egresada de Laboratoria. Con mucha valentía
                       dirigí mi rumbo a esta hermosa y apasionante profesión, me
                       apasiona enormemente lo que hago. Soy mamá de un niño de
@@ -62,22 +58,11 @@ const AboutMe = () => {
                   <img src={hobgameold} alt="hobgameold" />
                   <img src={hobmusic} alt="hobmusic" />
                   <img src={hobcards} alt="hobcards" />
-
                   <img src={hobpaseo} alt="hobpaseo" />
                 </div>
               </div>
-              {/* <div className="softSkills">
-                <h2>Habilidades</h2>
-                <div className="containerSoftSkills">
-                  <img src={teem} alt="Teem" />
-                  <img src={agil} alt="Agil" />
-                  <img src={autoaprendizaje} alt="autoaprendizaje" />
-                  <img src={gtiempo} alt="tiempo" />
-                  <img src={resolucion} alt="resolucion" />
-                  <img src={analisis} alt="analisis" />
-                </div>
-              </div> */}
             </body>
+            {/* <Navbar /> */}
           </div>
         </div>
       </div>

@@ -1,0 +1,146 @@
+.habAndKnowCapeFirts {
+  display: flex;
+  /* position: absolute; */
+  background-color: FFFFFF;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.habAndKnowCapeSecond {
+  /* position: absolute; */
+  display: flex;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.7) -70.22%, rgba(74, 44, 64, 0.7) -70.21%, rgba(74, 44, 64, 0) -11.56%, rgba(74, 44, 64, 0.7) 32.17%);
+
+}
+
+.containerSkillsThirdCape {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/backgroundcel.svg);
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+  background-size: cover;
+  z-index: 2;
+}
+
+.habAndKnowCapeForth {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 3;
+  background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
+  opacity: 0.2;
+  transform: rotate(180deg);
+}
+
+/* logo */
+.containerLogoHabAndKnow {
+  width: 15vw;
+  position: absolute;
+  z-index: 5;
+
+}
+
+.logoImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+
+.bodyHabAndKnow {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+
+.containerTitleAndHabandKnow {
+  margin-top: 5vh;
+  margin-left: 5vw;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTitleAndHab h2 {
+  margin-top: 3vh;
+  text-align: center;
+  font-family: 'Sacramento', 'sans-serif';
+  font-size: 4rem;
+  color: #ffffff;
+
+}
+
+
+.containerHab {
+  margin-top: 2vh;
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+
+}
+
+.containerHab img {
+
+  width: 20%;
+  margin-left: 4vw;
+}
+
+.containerTitleAndKnow h2 {
+  margin-top: 3vh;
+  text-align: center;
+  font-family: 'Sacramento', 'sans-serif';
+  font-size: 4rem;
+  color: #ffffff;
+
+}
+
+.containerKnow {
+  margin-top: 2vh;
+  width: 70vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.containerKnow img {
+  width: 15%;
+  margin-left: 3vw;
+
+}
+
+
+
+@media screen and (min-width: 1440px) {
+
+  .aboutContainerText {
+    width: 90vw;
+    height: 100vh;
+    background-image: url(../../images/backgroundAbi.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    z-index: 4;
+
+  }
+}

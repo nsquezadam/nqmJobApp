@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/homepage/InitialPage.css";
 import BtnPrincipal from "./BtnPrincipal";
-import NavBar from "./Navbar";
+//import NavBar from "./Navbar";
 import Logo from "./Logo";
 
 const InitialPage = () => {
   return (
     <Fragment>
-      <div className="container_0">
+      <div id="initialPage" className="container_0">
         <div className="container_1">
           <div className="container_2"></div>
         </div>
@@ -28,7 +28,7 @@ const InitialPage = () => {
         </div>
       </div>
 
-      <NavBar />
+      {/* <NavBar /> */}
     </Fragment>
   );
 };
