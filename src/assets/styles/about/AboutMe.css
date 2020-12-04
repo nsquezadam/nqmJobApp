@@ -178,28 +178,34 @@
 @media screen and (min-width: 1440px) {
 
   .aboutContainerText {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
     background-image: url(../../images/backgroundAbi.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 70% 70%;
+    background-size: 100% 100%;
     z-index: 3;
 
   }
 
   .bodyAboutMe {
     width: 100vw;
+    height: 100vh;
   }
 
   .textP p {
     font-size: 1rem;
     line-height: 2em;
-    text-align: center;
+    text-align: left;
 
     /* color: #FFFFFF; */
   }
 
+  .hobbies h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 5vw;
+  }
 
   .mePicture {
     width: 30%;
