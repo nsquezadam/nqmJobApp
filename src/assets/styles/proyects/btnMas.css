@@ -1,0 +1,25 @@
+.containerBtnMas {
+  width: 50vw;
+  height: 8.80281690140845vh;
+  background-color: transparent;
+  border: 1.5px solid #E9BD43;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  box-sizing: border-box;
+
+}
+
+.btnMa {
+  width: 46.875vw;
+  height: 7.042253521126761vh;
+  background-color: #E9BD43;
+  border-style: none;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #4A2C40;
+}
