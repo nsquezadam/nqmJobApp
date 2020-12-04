@@ -29,7 +29,7 @@
   background-repeat: no-repeat;
   background-position: 30% 50%;
   background-size: cover;
-  z-index: 3;
+  z-index: 2;
 
 }
 
@@ -40,7 +40,7 @@
   height: 100vh;
   position: absolute;
   /* display: flex; */
-  z-index: 4;
+  z-index: 3;
   background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
   opacity: 0.2;
   transform: rotate(180deg);
@@ -59,7 +59,7 @@
 
 /* logo */
 .containerLogoAboutMe {
-  width: 20vw;
+  width: 15vw;
   position: absolute;
   z-index: 5;
 
@@ -67,8 +67,8 @@
 
 .logoImg {
 
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   margin-top: 2vh;
   margin-left: 2vw;
 
@@ -78,7 +78,8 @@
 .bodyAboutMe h2 {
   margin-top: 5vh;
   text-align: center;
-  font-family: 'Sacramento', 'sans-serif';
+  font-family: 'Sacramento',
+    'sans-serif';
   font-size: 4rem;
 }
 
@@ -182,7 +183,7 @@
     background-image: url(../../images/backgroundAbi.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 95% 95%;
+    background-size: 70% 70%;
     z-index: 3;
 
   }

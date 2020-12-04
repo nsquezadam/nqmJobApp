@@ -1,0 +1,40 @@
+.containerBtnCv {
+  /* width: 16.666666666666664vw; */
+  width: 37.5vw;
+  height: 7.042253521126761vh;
+  /* height: 8.333333333333334vh; */
+  background-color: transparent;
+  border: 1.5px solid #E9BD43;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  left: 45vw;
+
+
+
+
+}
+
+
+.btnCv {
+  display: flex;
+  position: absolute;
+  align-self: center;
+  justify-content: space-around;
+  /* width: 14.722222222222223vw; */
+  /* height: 5.444444444444445vh; */
+  width: 31.25vw;
+  height: 5.28169014084507vh;
+  background-color: #E9BD43;
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  color: #4A2C40;
+  box-sizing: border-box;
+  border-style: none;
+  text-align: center;
+  padding-top: 1.5vh;
+
+}
