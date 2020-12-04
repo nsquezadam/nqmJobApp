@@ -1,10 +1,53 @@
 import React from "react";
+import "../../assets/styles/proyects/homeProyects.css";
+import cpt from "../../assets/images/proyects/cpt.svg";
+import bk from "../../assets/images/proyects/bk.svg";
+import wit from "../../assets/images/proyects/wit.svg";
+import pkw from "../../assets/images/proyects/pkw.svg";
+import BtnMas from "./BtnMas";
+import Logo from "../homepage/Logo";
 
 const HomeProyects = () => {
   return (
-    <div>
-      <div></div>
-    </div>
+    <body id="homeProyect" className="bodyHomeProyects">
+      <div className="containerTitleLogo">
+        <div className="containerLogoProyects">
+          <Logo />
+        </div>
+        <h2>Proyectos</h2>
+      </div>
+
+      <div className="containerHomeProyects">
+        <div className="containerProyect">
+          <h3>"Comida Para Todos"</h3>
+          <img className="imgCpt" src={cpt} alt="CPT" />
+          <div className="containerBtnMasP">
+            <BtnMas />
+          </div>
+        </div>
+        <div className="containerProyect">
+          <h3>"Burguer Kingdom"</h3>
+          <img className="imgBk" src={bk} alt="BurguerKingdom" />
+          <div className="containerBtnMasP">
+            <BtnMas />
+          </div>
+        </div>
+        <div className="containerProyect">
+          <h3>"WIT"</h3>
+          <img className="imgWit" src={wit} alt="WIT" />
+          <div className="containerBtnMasP">
+            <BtnMas />
+          </div>
+        </div>
+        <div className="containerProyect">
+          <h3>"Pokeworld"</h3>
+          <img className="imgPkw" src={pkw} alt="WIT" />
+          <div className="containerBtnMasP">
+            <BtnMas />
+          </div>
+        </div>
+      </div>
+    </body>
   );
 };
 

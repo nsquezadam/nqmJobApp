@@ -1,0 +1,76 @@
+.bodyHomeProyects {
+  width: 100vw;
+  height: 200vh;
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: column;
+
+}
+
+.containerTitleLogo {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2vh;
+
+}
+
+.containerLogoProyects {
+  width: 15vw;
+
+}
+
+
+
+.bodyHomeProyects h2 {
+  margin-left: 25vw;
+  margin-top: 5vh;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'sansita';
+  color: #4A2C40;
+  align-self: center;
+
+}
+
+.containerHomeProyect {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
+.containerProyect {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-left: 10vw;
+  justify-content: center;
+
+
+}
+
+.containerProyect img {
+  width: 75%;
+  height: 75%;
+  margin-bottom: 3vh;
+}
+
+.containerProyect h3 {
+  font-family: 'sansita';
+  color: #4A2C40;
+  text-align: left;
+  margin-bottom: 2vh;
+  font-size: 2rem;
+}
+
+
+.containerBtnMasP {
+  margin: 0;
+  padding: 0;
+  margin-left: 8vw;
+
+}
