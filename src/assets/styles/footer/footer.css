@@ -1,0 +1,76 @@
+.containerFooter {
+  background-image: url('../../images/backFooter.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 47.111111111111114vh;
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.containerSignLinks {
+  display: flex;
+  flex-direction: row;
+  width: 85vw;
+  height: 47.111111111111114vh;
+
+
+}
+
+.containerLinks {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding: 0;
+
+
+}
+
+.lineUP {
+  width: 40vw;
+  height: 0;
+  border: 1.5px solid #E9BD43;
+  left: 0;
+
+}
+
+.linkTo {
+  display: flex;
+
+  outline: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  width: 29vw;
+  height: 41vh;
+}
+
+.linkIcons {
+  width: 45%;
+  height: 45%;
+  align-self: flex-start;
+  margin-top: 3.5vh;
+  margin-left: 35vw;
+
+}
+
+.containerSign {
+
+  margin-top: 35vh;
+  display: flex;
+  margin-left: 20vw;
+  width: 35vw;
+  height: auto;
+
+
+}
+
+.containerSign img {
+
+  width: 90%;
+  height: 90%;
+
+
+}

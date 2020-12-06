@@ -5,6 +5,7 @@ import bk from "../../assets/images/proyects/bk.svg";
 import wit from "../../assets/images/proyects/wit.svg";
 import pkw from "../../assets/images/proyects/pkw.svg";
 import BtnMas from "./BtnMas";
+import Navbar from "../homepage/Navbar";
 
 const HomeProyects = () => {
   return (
@@ -41,6 +42,7 @@ const HomeProyects = () => {
           </div>
         </div>
       </div>
+      <Navbar />
     </body>
   );
 };

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/homepage/InitialPage.css";
 import BtnPrincipal from "./BtnPrincipal";
-//import NavBar from "./Navbar";
+import NavBar from "./Navbar";
 
 const InitialPage = () => {
   return (
@@ -22,8 +22,7 @@ const InitialPage = () => {
           <BtnPrincipal />
         </div>
       </div>
-
-      {/* <NavBar /> */}
+      <NavBar />
     </Fragment>
   );
 };

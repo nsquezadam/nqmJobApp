@@ -12,7 +12,8 @@ import hobmusic from "../../assets/icon/hobbies/hobmusic.svg";
 import hobnetflix from "../../assets/icon/hobbies/hobnetflix.svg";
 import hobpaseo from "../../assets/icon/hobbies/hobpaseo.svg";
 
-//import Navbar from "../homepage/Navbar";
+import Navbar from "../homepage/Navbar";
+
 const AboutMe = () => {
   return (
     <Fragment>
@@ -59,10 +60,10 @@ const AboutMe = () => {
                 </div>
               </div>
             </body>
-            {/* <Navbar /> */}
           </div>
         </div>
       </div>
+      <Navbar />
     </Fragment>
   );
 };
