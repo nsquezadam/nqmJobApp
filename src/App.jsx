@@ -3,7 +3,7 @@ import InitialPage from "../src/components/homepage/InitialPage";
 import AboutMe from "../src/components/about/AboutMe";
 import HabAndKnowledge from "../src/components/about/HabAndKnowledge";
 import HomeProyects from "../src/components/proyects/HomeProyects";
-//import Navbar from "../src/components/homepage/Navbar";
+import Navbar from "../src/components/homepage/Navbar";
 import Logo from "../src/components/homepage/Logo";
 import "./App.css";
 import Footer from "../src/components/footer/Footer";
@@ -19,7 +19,7 @@ function App() {
         <AboutMe />
         <HabAndKnowledge />
         <HomeProyects />
-        {/* <Navbar /> */}
+        <Navbar />
         <Footer />
       </div>
     </Fragment>

@@ -5,56 +5,54 @@
     padding: 0;
     margin: 0;
     font-family: 'Sansita', sans-serif;
-    background-image: url(../../images/nqmFoto.jpg);
+    background-image: url(../../images/nqmFotos.svg);
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     -webkit-background-position: bottom;
     background-position: bottom;
-    opacity: 0.6;
-    position: absolute;
 
-}
-
-.container_1 {
-    background: linear-gradient(128.13deg, rgba(125, 55, 128, 0.3) 28.01%, rgba(125, 55, 128, 0) 97.4%);
-    z-index: 1;
-    width: 100vw;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-}
-
-.container_2 {
-    background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.8) -9.87%, rgba(74, 44, 64, 0.8) -9.86%, rgba(74, 44, 64, 0) 48.79%, rgba(74, 44, 64, 0.8) 92.51%);
-    z-index: 2;
-    width: 100vw;
-    height: 100vh;
+    /* position: absolute; */
     display: flex;
-    flex-direction: column;
+    z-index: -1;
+
+}
+
+/* .container_1 {
+    background-image: url(../../images/backgroundPic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
     padding: 0;
     margin: 0;
+    display: flex;
+    z-index: 1;
     position: absolute;
-}
+} */
+
 
 /*body*/
 .body {
-    position: relative;
-    width: 100vw;
+    display: flex;
+    width: 85vw;
     height: 100vh;
     padding: 0;
     margin: 0;
+    flex-direction: column;
+    z-index: 3;
+
 }
 
 /* titles*/
 .titles {
-    top: 45vh;
-    position: absolute;
+    margin-top: 40vh;
     margin-left: 4vw;
     width: 65vw;
     height: 30vh;
     display: flex;
     flex-direction: column;
+    align-self: flex-start;
 }
 
 .principalTitles h1 {
@@ -75,7 +73,7 @@
     line-height: 0.895em;
     font-weight: 400;
     margin-bottom: 3vh;
-
+    z-index: 3;
 }
 
 
@@ -84,15 +82,15 @@
 @media only screen and (min-width: 1440px) {
 
     .container_0 {
-        background-image: url(../../images/nqmprueba1.jpg);
+        background-image: url(../../images/nqmFotos.svg);
+        background-position: center;
     }
 
 
 
     /* titles*/
     .titles {
-        top: 25vh;
-        position: absolute;
+        margin-top: 25vh;
         margin-left: 4vw;
         width: 30vw;
         height: 30vh;

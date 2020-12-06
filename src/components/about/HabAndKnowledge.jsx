@@ -19,7 +19,7 @@ import js from "../../assets/icon/knowledge/js.svg";
 import reactjs from "../../assets/icon/knowledge/reactjs.svg";
 import sass from "../../assets/icon/knowledge/sass.svg";
 import trello from "../../assets/icon/knowledge/trello.svg";
-import Navbar from "../homepage/Navbar";
+// import Navbar from "../homepage/Navbar";
 
 const HabAndKnowledge = () => {
   return (
@@ -67,7 +67,7 @@ const HabAndKnowledge = () => {
               </div>
               <BtnCv />
             </body>
-            <Navbar />
+            {/* <Navbar /> */}
           </div>
         </div>
       </div>

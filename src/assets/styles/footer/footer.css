@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 47.111111111111114vh;
+  height: 100vh;
   display: flex;
   padding: 0;
   margin: 0;
@@ -11,66 +11,101 @@
 }
 
 .containerSignLinks {
+  margin-top: 35vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 85vw;
-  height: 47.111111111111114vh;
-
-
+  height: auto;
 }
 
 .containerLinks {
   display: flex;
   flex-direction: column;
-  width: 50vw;
   padding: 0;
+  justify-content: space-between;
 
+  height: auto;
 
 }
 
 .lineUP {
-  width: 40vw;
+  width: 60vw;
   height: 0;
   border: 1.5px solid #E9BD43;
   left: 0;
+  margin-bottom: 3vh;
 
 }
 
 .linkTo {
   display: flex;
-
   outline: none;
   text-decoration: none;
   padding: 0;
   margin: 0;
-  width: 29vw;
-  height: 41vh;
+  justify-content: space-evenly;
+  margin-bottom: 3vh;
 }
 
 .linkIcons {
-  width: 45%;
-  height: 45%;
+  width: 10%;
+  height: 10%;
   align-self: flex-start;
-  margin-top: 3.5vh;
-  margin-left: 35vw;
+  margin-top: 1vh;
+  margin-left: 25vw;
 
 }
 
 .containerSign {
-
-  margin-top: 35vh;
   display: flex;
-  margin-left: 20vw;
   width: 35vw;
   height: auto;
-
-
+  margin-left: 15vw;
+  margin-top: 5vh;
+  transform: rotate(-10deg)
 }
 
 .containerSign img {
 
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 
+
+}
+
+@media only screen and (min-width:1440px) {
+
+  .containerSignLinks {
+    margin-top: 25vh;
+    width: 90vw;
+
+  }
+
+  .lineUP {
+    width: 50vw;
+    height: 0;
+    border: 1px solid #E9BD43;
+    margin-bottom: 3vh;
+
+  }
+
+
+
+  .linkIcons {
+    width: 5%;
+    height: 5%;
+    margin-top: 1vh;
+    margin-left: 1vw;
+
+  }
+
+  .containerSign {
+    display: flex;
+    width: 20vw;
+    height: auto;
+    margin-left: 10vw;
+    margin-top: 3vh;
+    transform: rotate(-10deg)
+  }
 
 }

@@ -1,6 +1,8 @@
 import React from "react";
-import "../../assets/styles/homepage/NavBar.css";
+import "../../assets/styles/homepage/navBar.css";
 import ArrowDown from "../../assets/icon/arrowDown.svg";
+import arrowUp from "../../assets/icon/arrowUp.svg";
+
 import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
 const Navbar = () => {
@@ -55,6 +57,15 @@ const Navbar = () => {
           onClick={() => window.scrollTo(0, 1800)}
         />
       </div>
+      <div className="containerBtnUp">
+        <img
+          className="btnUp"
+          src={arrowUp}
+          alt="Arrow"
+          onClick={() => window.scrollTo(0, 0)}
+        />
+      </div>
+      <div className="objectLineUpFoo"></div>
     </div>
   );
 };
