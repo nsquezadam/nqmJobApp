@@ -1,7 +1,8 @@
 import React from "react";
-import "../../assets/styles/homepage/navBar.css";
+
 import ArrowDown from "../../assets/icon/arrowDown.svg";
 import arrowUp from "../../assets/icon/arrowUp.svg";
+import "../../assets/styles/homepage/navBar.css";
 
 import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
