@@ -2,7 +2,7 @@ import React from "react";
 
 import ArrowDown from "../../assets/icon/arrowDown.svg";
 import arrowUp from "../../assets/icon/arrowUp.svg";
-import "../../assets/styles/homepage/navBar.css";
+import "../../assets/styles/homepage/NavBar.css";
 
 import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
