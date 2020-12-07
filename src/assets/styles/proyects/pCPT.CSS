@@ -1,0 +1,242 @@
+.containerViewCpt {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.cptBody {
+  width: 100vw;
+  height: auto;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.containerSlider {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 4vh;
+
+}
+
+.containerImgPtc {
+  width: 90vw;
+  height: auto;
+  margin-top: 2vh;
+  margin-left: 5vw;
+}
+
+.imgSliderPtc {
+  width: 90%;
+  height: 90%;
+  align-self: center;
+}
+
+.containerSection {
+  display: flex;
+  flex-direction: column;
+  font-family: "sarabun";
+  width: 100vw;
+  height: auto;
+}
+
+.containerSection h2 {
+  font-size: 3rem;
+  text-align: center;
+  color: #4A2C40;
+}
+
+
+.containerPtextcpt {
+  margin-top: 2vh;
+  width: 100vw;
+  height: 25vh;
+  background: linear-gradient(93.88deg, #4A2C40 14.99%, #7D3780 69.18%, rgba(125, 55, 128, 0.64613) 90.45%, rgba(125, 55, 128, 0.576729) 101.39%, rgba(125, 55, 128, 0) 101.39%, rgba(125, 55, 128, 0.336851) 101.39%);
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  box-shadow: 5px 2px 10px 2px rgba(100, 50, 96, 0.6);
+  margin-bottom: 3vh;
+}
+
+.containerPtextcpt p {
+  font-size: 1.8rem;
+  text-align: center;
+  align-self: center;
+  color: #FAEEE7;
+  line-height: 1.8em;
+}
+
+/* teem */
+.containerTeemCpt {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  flex-direction: column;
+  margin-bottom: 3vh;
+}
+
+
+
+.containerTeemCpt h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 3vw;
+
+
+}
+
+.containerPictTeem {
+  margin-top: 4vh;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.containerImgName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.containerImgName a {
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.containerImgName a img {
+  width: 80%;
+  height: 80%;
+
+
+}
+
+
+.containerImgName p {
+
+  font-size: 1.5rem;
+  width: 15vw;
+  color: #4A2C40;
+  text-align: center;
+}
+
+/* tecnologias */
+.containerTecnologies {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.containerTecnologies h2 {
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 3vw;
+
+}
+
+.containerGralImgTec {
+
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3vh;
+  margin-left: 2;
+  margin-right: 2;
+  margin-bottom: 3vh;
+  justify-content: space-between;
+  padding-left: 5vw;
+  padding-right: 5vw;
+
+}
+
+/* .containerImgTec {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  width: 15vw;
+} */
+
+.containerGralImgTec img {
+  width: 7%;
+  height: 7%;
+}
+
+/* ver mas  enlaces*/
+
+.containerLinks {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.containerLinks h2 {
+
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 3vw;
+}
+
+.containerDeploy {
+  margin-top: 2vh;
+  width: 65vw;
+  margin-bottom: 3vh;
+}
+
+.containerDeploy p {
+  margin-bottom: 2vh;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 3vw;
+  color: #E9BD43;
+}
+
+.containerLinks a {
+  text-decoration: none;
+  color: #7D3780;
+  font-size: 1.6rem;
+  margin-left: 3vw;
+
+
+}
+
+.lineSep {
+  width: 40vw;
+  height: 0vh;
+  border: 1px solid #E9BD43;
+  left: 0;
+  margin-top: 3vh;
+}
+
+.containerGitHub {
+  width: 65vw;
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+
+.containerGitHub p {
+  margin-bottom: 2vh;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-left: 3vw;
+  color: #E9BD43;
+}
+
+.containerGitHub a {
+  text-decoration: none;
+  color: #7D3780;
+  font-size: 1.6rem;
+  margin-left: 3vw;
+
+
+}

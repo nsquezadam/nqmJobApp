@@ -1,26 +1,27 @@
 import React, { Fragment } from "react";
-import InitialPage from "../src/components/homepage/InitialPage";
-import AboutMe from "../src/components/about/AboutMe";
-import HabAndKnowledge from "../src/components/about/HabAndKnowledge";
-import HomeProyects from "../src/components/proyects/HomeProyects";
-import Navbar from "../src/components/homepage/Navbar";
-import Logo from "../src/components/homepage/Logo";
+// import InitialPage from "../src/components/homepage/InitialPage";
+// import AboutMe from "../src/components/about/AboutMe";
+// import HabAndKnowledge from "../src/components/about/HabAndKnowledge";
+// import HomeProyects from "../src/components/proyects/HomeProyects";
+// import Navbar from "../src/components/homepage/Navbar";
+// import Logo from "../src/components/homepage/Logo";
+// import Footer from "../src/components/footer/Footer";
+import PcomidaParaTodos from "../src/components/proyects/PcomidaParaTodos";
 import "./App.css";
-import Footer from "../src/components/footer/Footer";
-
 //import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <Fragment>
       <div className="App">
-        <Logo />
+        <PcomidaParaTodos />
+        {/* <Logo />
         <InitialPage />
         <AboutMe />
         <HabAndKnowledge />
         <HomeProyects />
         <Navbar />
-        <Footer />
+        <Footer /> */}
       </div>
     </Fragment>
   );
