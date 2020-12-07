@@ -14,7 +14,7 @@ import nb from "../../assets/images/proyects/CPT/TeemCpt/NB.svg";
 import db from "../../assets/images/proyects/CPT/TeemCpt/DB.svg";
 import am from "../../assets/images/proyects/CPT/TeemCpt/AM.svg";
 import nq from "../../assets/images/proyects/NQ.svg";
-//iconos tecnologias originales
+//iconos tecnologias originalesx
 import js from "../../assets/icon/tecnologiesProyects/jsO.svg";
 import reactjs from "../../assets/icon/tecnologiesProyects/reactjsO.svg";
 import css from "../../assets/icon/tecnologiesProyects/cssO.svg";
@@ -24,6 +24,7 @@ import boots from "../../assets/icon/tecnologiesProyects/bootsO.svg";
 // boton return
 import BtnReturn from "./BtnReturn";
 import Footer from "../footer/Footer";
+import BtnDownP from "./BtnDownP";
 
 const PcomidaParaTodos = () => {
   let settings = {
@@ -39,6 +40,7 @@ const PcomidaParaTodos = () => {
   return (
     <div id="cptView" className="containerViewCpt">
       <body className="cptBody">
+        <BtnDownP />
         <div className="containerSlider">
           <Slider {...settings}>
             <div className="containerImgPtc">

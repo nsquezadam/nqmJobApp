@@ -13,12 +13,15 @@
   flex-direction: column; */
 }
 
-.containerSlider {
+.slick-slider {
   width: 100vw;
+  align-self: center;
+  margin-top: 5vh;
   height: auto;
-  margin-bottom: 4vh;
-
+  margin-bottom: 5vh;
 }
+
+
 
 .containerImgPtc {
   width: 90vw;
@@ -116,7 +119,6 @@
 
 
 }
-
 
 .containerImgName p {
 
@@ -238,5 +240,101 @@
   font-size: 1.6rem;
   margin-left: 3vw;
 
+
+}
+
+@media only screen and (min-width:1440px) {
+  .slick-slider {
+    width: 100vw;
+    align-self: center;
+    margin-top: 5vh;
+  }
+
+  .slick-slide img {
+    width: 80vw;
+    align-self: center;
+    padding-left: 10vw;
+  }
+
+  .containerSlider {
+    width: 100vw;
+    height: auto;
+    margin-bottom: 4vh;
+
+  }
+
+  .imgSliderPtc {
+    width: 70%;
+    height: 70%;
+    align-self: center;
+  }
+
+  .containerSection h2 {
+    font-size: 2rem;
+
+  }
+
+  .containerPtextcpt {
+    margin-top: 5vh;
+
+    height: 20vh;
+
+  }
+
+  .containerPtextcpt p {
+    font-size: 1rem;
+  }
+
+  .containerTeemCpt h2 {
+    font-size: 1.8rem;
+  }
+
+  .containerImgName a img {
+    width: 60%;
+    height: 60%;
+  }
+
+
+
+  .containerImgName p {
+    font-size: 1.3rem;
+    width: 15vw;
+    color: #4A2C40;
+    text-align: center;
+  }
+
+  .containerTecnologies {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .containerTecnologies h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+
+  }
+
+  .containerGralImgTec img {
+    width: 5%;
+    height: 5%;
+  }
+
+  .containerLinks h2 {
+
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+  }
+
+  .containerLinks p {
+    margin-bottom: 3vh;
+    font-size: 2rem;
+  }
+
+  .containerLinks a {
+
+    font-size: 1.2rem;
+
+
+  }
 
 }
