@@ -17,8 +17,8 @@ import hobpaseo from "../../assets/icon/hobbies/hobpaseo.svg";
 const AboutMe = () => {
   return (
     <Fragment>
-      <div id="aboutPage" className="abouPageFirtsCape">
-        <body className="bodyAboutMe">
+      <body id="aboutPage" className="abouPageFirtsCape">
+        <div className="bodyAboutMe">
           <h2>Sobre Mi</h2>
           <div className="textAboutme">
             <div className="containerTexAndImg">
@@ -55,11 +55,11 @@ const AboutMe = () => {
               <img src={hobpaseo} alt="hobpaseo" />
             </div>
           </div>
-        </body>
+        </div>
         {/* <div className="containerNavbarAbout"> */}
         {/* <Navbar /> */}
         {/* </div> */}
-      </div>
+      </body>
     </Fragment>
   );
 };
