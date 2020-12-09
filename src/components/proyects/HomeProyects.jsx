@@ -1,5 +1,5 @@
 import React from "react";
-// import { useHistory } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 import "../../assets/styles/proyects/homeProyects.css";
 import cpt from "../../assets/images/proyects/cpt.svg";
 import bk from "../../assets/images/proyects/bk.svg";
@@ -12,10 +12,10 @@ import BtnMas from "./BtnMas";
 // import Navbar from "../homepage/Navbar";
 
 const HomeProyects = (props) => {
-  // let history = useHistory();
+  let history = useHistory();
   function handleClick() {
     console.log("accediendo");
-    // history.push({ AllViewsproyects });
+    history.push("/AllViewsproyects");
     // <AllViewsProyects />;
   }
 

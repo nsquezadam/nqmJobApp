@@ -1,5 +1,5 @@
 import React from "react";
-
+import { useHistory } from "react-router-dom";
 import ArrowDown from "../../assets/icon/arrowDown.svg";
 import arrowUp from "../../assets/icon/arrowUp.svg";
 import "../../assets/styles/proyects/NavBarProyects.css";
@@ -8,10 +8,21 @@ import arrowReturn from "../../assets/icon/arrowReturn.svg";
 import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
 const NavbarProyects = () => {
+  let history = useHistory();
+  function handleClick() {
+    console.log("accediendo");
+    history.push("/HomeProyects");
+    // <AllViewsProyects />;
+  }
   return (
     <div className="navBarProyects">
       <div className="containerReturn">
-        <img className="btnReturn" src={arrowReturn} alt="Arrow" />
+        <img
+          className="btnReturn"
+          src={arrowReturn}
+          alt="Arrow"
+          onClick={handleClick}
+        />
       </div>
       <div className="objectLineUpP"></div>
 
