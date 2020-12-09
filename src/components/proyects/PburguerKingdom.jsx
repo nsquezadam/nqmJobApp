@@ -36,8 +36,8 @@ const PburguerKingdom = () => {
     cssEase: "linear",
   };
   return (
-    <div id="bkView" className="containerViewCpt">
-      <body className="cptBody">
+    <body id="bkView" className="containerViewCpt">
+      <div className="cptBody">
         {/* <BtnDownP /> */}
         <div className="containerSlider">
           <Slider {...settings}>
@@ -130,8 +130,8 @@ const PburguerKingdom = () => {
         </div>
 
         {/* <Footer /> */}
-      </body>
-    </div>
+      </div>
+    </body>
   );
 };
 

@@ -36,8 +36,8 @@ const Pwit = () => {
     cssEase: "linear",
   };
   return (
-    <div id="witView" className="containerViewCpt">
-      <body className="cptBody">
+    <body id="witView" className="containerViewCpt">
+      <div className="cptBody">
         {/* <BtnDownP /> */}
         <div className="containerSlider">
           <Slider {...settings}>
@@ -125,8 +125,8 @@ const Pwit = () => {
         </div>
 
         {/* <Footer /> */}
-      </body>
-    </div>
+      </div>
+    </body>
   );
 };
 
