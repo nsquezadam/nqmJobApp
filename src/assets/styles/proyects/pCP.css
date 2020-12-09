@@ -4,13 +4,16 @@
   display: flex;
   margin: 0;
   padding: 0;
+  flex-direction: row;
+
 }
 
 .cptBody {
+
   width: 85vw;
   height: auto;
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+flex-direction: column;
 }
 
 .slick-slider {

@@ -23,6 +23,7 @@ import firebase from "../../assets/icon/tecnologiesProyects/firebaseO.svg";
 // import BtnReturn from "./BtnReturn";
 // import Footer from "../footer/Footer";
 // import BtnDownP from "./BtnDownP";
+import NavBarProyects from "./NavbarProyects";
 
 const PburguerKingdom = () => {
   let settings = {
@@ -128,7 +129,7 @@ const PburguerKingdom = () => {
           </div>
           {/* <BtnReturn /> */}
         </div>
-
+        <NavBarProyects />
         {/* <Footer /> */}
       </div>
     </body>

@@ -4,7 +4,7 @@ import PcomidaParaTodos from "./PcomidaParaTodos";
 import Pwit from "./Pwit";
 import Ppokeworld from "./Ppokeworld";
 import PburguerKingdom from "./PburguerKingdom";
-import NavBarProyects from "./NavbarProyects";
+// import NavBarProyects from "./NavbarProyects";
 
 const AllViewsProyects = () => {
   return (
@@ -13,7 +13,7 @@ const AllViewsProyects = () => {
       <PburguerKingdom />
       <Pwit />
       <Ppokeworld />
-      <NavBarProyects />
+      {/* <NavBarProyects /> */}
       {/* <Footer /> */}
     </div>
   );
