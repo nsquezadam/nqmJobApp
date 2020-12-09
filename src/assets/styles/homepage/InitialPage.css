@@ -86,7 +86,11 @@
         background-position: center;
     }
 
+    .body {
 
+        width: 90vw;
+
+    }
 
     /* titles*/
     .titles {

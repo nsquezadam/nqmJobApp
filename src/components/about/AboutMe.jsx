@@ -45,18 +45,33 @@ const AboutMe = () => {
           <div className="hobbies">
             <h2>Hobbies</h2>
             <div className="containerHobbies">
-              <img src={hobbike} alt="hobbike" />
-              <img src={hobnetflix} alt="hobnetflix" />
-              <img src={hobcinema} alt="hobcinema" />
-              <img src={hobgamecel} alt="hobgamecel" />
-              <img src={hobgameold} alt="hobgameold" />
-              <img src={hobmusic} alt="hobmusic" />
-              <img src={hobcards} alt="hobcards" />
-              <img src={hobpaseo} alt="hobpaseo" />
+              <div className="containerImgH">
+                <img src={hobbike} alt="hobbike" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobnetflix} alt="hobnetflix" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobcinema} alt="hobcinema" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobgamecel} alt="hobgamecel" className="imgHob" />
+              </div>
+              <div className="containerImg">
+                <img src={hobgameold} alt="hobgameold" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobmusic} alt="hobmusic" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobcards} alt="hobcards" className="imgHob" />
+              </div>
+              <div className="containerImgH">
+                <img src={hobpaseo} alt="hobpaseo" className="imgHob" />
+              </div>
             </div>
           </div>
         </div>
-
         <Navbar />
       </body>
     </Fragment>
