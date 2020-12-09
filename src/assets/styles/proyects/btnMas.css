@@ -1,0 +1,42 @@
+.containerBtnMas {
+  width: 31.25vw;
+  height: 7.042253521126761vh;
+  background-color: transparent;
+  border: 1.5px solid #E9BD43;
+  display: flex;
+  justify-content: space-around;
+
+  box-sizing: border-box;
+
+}
+
+.btnMas {
+  width: 28.125vw;
+  height: 5.28169014084507vh;
+  background-color: #E9BD43;
+  border-style: none;
+  align-self: center;
+  text-align: center;
+  font-family: Sansita;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #4A2C40;
+}
+
+@media screen and (min-width: 1440px) {
+
+  .containerBtnMas {
+    width: 11.11111111111111vw;
+    height: 5.555555555555555vh;
+  }
+
+  .btnMas {
+    width: 10.416666666666668vw;
+    height: 4.444444444444445vh;
+    background-color: #E9BD43;
+    font-size: 1.5rem;
+
+  }
+
+}

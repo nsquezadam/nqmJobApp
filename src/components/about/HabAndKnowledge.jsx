@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Logo from "../homepage/Logo";
+
 import BtnCv from "../about/BtnCv";
 import "../../../src/assets/styles/about/habAndKnowledge.css";
 
@@ -19,59 +19,49 @@ import js from "../../assets/icon/knowledge/js.svg";
 import reactjs from "../../assets/icon/knowledge/reactjs.svg";
 import sass from "../../assets/icon/knowledge/sass.svg";
 import trello from "../../assets/icon/knowledge/trello.svg";
+import Navbar from "../homepage/Navbar";
 
 const HabAndKnowledge = () => {
   return (
     <Fragment>
-      <div id="habAndKnowPage" className="habAndKnowCapeFirts">
-        <div className="habAndKnowCapeSecond">
-          <div className="containerSkillsThirdCape">
-            <div className="habAndKnowCapeForth"></div>
-            <body className="bodyHabAndKnow">
-              <div className="containerLogoHabAndKnow">
-                <Logo />
-              </div>
-              <div className="containerTitleAndHabandKnow">
-                <div className="containerTitleAndHab">
-                  <h2>Habilidades</h2>
-                  <div className="containerHab">
-                    <img src={teem} alt="teem" className="teem" />
-                    <img src={agil} alt="agil" className="agil" />
-                    <img
-                      src={autoaprendizaje}
-                      alt="autoaprendizaje"
-                      className="autoaprendizaje"
-                    />
-                    <img src={analisis} alt="analisis" className="analisis" />
+      <body id="habAndKnowPage" className="habAndKnowCapeFirts">
+        <div className="bodyHabAndKnow">
+          <div className="containerTitleAndHabandKnow">
+            <div className="containerTitleAndHab">
+              <h2>Habilidades</h2>
+              <div className="containerHab">
+                <img src={teem} alt="teem" className="teem" />
+                <img src={agil} alt="agil" className="agil" />
+                <img
+                  src={autoaprendizaje}
+                  alt="autoaprendizaje"
+                  className="autoaprendizaje"
+                />
+                <img src={analisis} alt="analisis" className="analisis" />
 
-                    <img src={gtiempo} alt="gtiempo" className="gtiempo" />
-                    <img
-                      src={resolucion}
-                      alt="resolucion"
-                      className="resolucion"
-                    />
-                  </div>
-                </div>
-                <div className="containerTitleAndKnow">
-                  <h2>Conocimientos</h2>
-                  <div className="containerKnow">
-                    <img src={js} alt="js" className="js" />
-                    <img src={html5} alt="html5" className="html5" />
-                    <img src={css} alt="css" className="css" />
-                    <img src={reactjs} alt="reactjs" className="reactjs" />
-                    <img src={figma} alt="figma" className="figma" />
-                    <img src={git} alt="git" className="git" />
-                    <img src={trello} alt="trello" className="trello" />
-                    <img src={sass} alt="sass" className="sass" />
-                    <img src={firebase} alt="firebase" className="firebase" />
-                  </div>
-                </div>
+                <img src={gtiempo} alt="gtiempo" className="gtiempo" />
+                <img src={resolucion} alt="resolucion" className="resolucion" />
               </div>
-              <BtnCv />
-            </body>
+            </div>
+            <div className="containerTitleAndKnow">
+              <h2>Conocimientos</h2>
+              <div className="containerKnow">
+                <img src={js} alt="js" className="js" />
+                <img src={html5} alt="html5" className="html5" />
+                <img src={css} alt="css" className="css" />
+                <img src={reactjs} alt="reactjs" className="reactjs" />
+                <img src={figma} alt="figma" className="figma" />
+                <img src={git} alt="git" className="git" />
+                <img src={trello} alt="trello" className="trello" />
+                <img src={sass} alt="sass" className="sass" />
+                <img src={firebase} alt="firebase" className="firebase" />
+              </div>
+            </div>
           </div>
+          <BtnCv />
         </div>
-      </div>
+        <Navbar />
+      </body>
     </Fragment>
   );
 };

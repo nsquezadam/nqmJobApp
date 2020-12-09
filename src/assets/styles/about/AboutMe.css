@@ -1,61 +1,33 @@
-.aboutPageFirstCape {
-  display: flex;
-  /* position: absolute; */
-  background-color: FFFFFF;
-  width: 100vw;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-}
-
-.aboutPageSecondCape {
-  display: flex;
-  /* position: absolute; */
-  z-index: 1;
-  width: 100vw;
-  height: 100vh;
-  padding: 0;
-  margin: 0;
-  background: linear-gradient(109.19deg, rgba(74, 44, 64, 0.7) -70.22%, rgba(74, 44, 64, 0.7) -70.21%, rgba(74, 44, 64, 0) -11.56%, rgba(74, 44, 64, 0.7) 32.17%);
-
-}
-
-/* background: rgba(0, 0, 41, 0.5); */
-
-.aboutContainerText {
+.abouPageFirtsCape {
   width: 100vw;
   height: 100vh;
   background-image: url(../../images/backgroundcel.svg);
   background-repeat: no-repeat;
   background-position: 30% 50%;
   background-size: cover;
-  z-index: 2;
-
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
 }
 
-.aboutPageThirdCape {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  /* display: flex; */
-  z-index: 3;
-  background: linear-gradient(110.93deg, rgba(125, 55, 128, 0.7) 36.17%, rgba(74, 44, 64, 0.7) 80.08%, rgba(125, 55, 128, 0) 90.78%);
-  opacity: 0.2;
-  transform: rotate(180deg);
-}
+
+
+/* background: rgba(0, 0, 41, 0.5); */
 
 
 .bodyAboutMe {
+  display: flex;
   padding: 0;
   margin: 0;
   width: 85vw;
   height: 100vh;
   color: #ffffff;
   overflow: hidden;
+  flex-direction: column;
 
 }
+
+
 
 /* logo */
 .containerLogoAboutMe {
@@ -88,7 +60,7 @@
 
   width: 100vw;
   height: 40vh;
-  margin-top: 8vh;
+  margin-top: 5vh;
   margin-left: 5vw;
 }
 
@@ -105,8 +77,6 @@
   /* background-image: url('../../images/backgroundAbi.svg') 0 0 no-repeat; */
   width: 100vw;
 }
-
-
 
 .textP {
   width: 75vw;
@@ -149,10 +119,10 @@
 } */
 /* hobbies */
 .hobbies {
-  margin-top: 2.5vh;
+  margin-top: 8vh;
+  width: 90vw;
   display: flex;
   flex-direction: column;
-
 }
 
 .containerHobbies {
@@ -178,28 +148,36 @@
 @media screen and (min-width: 1440px) {
 
   .aboutContainerText {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
     background-image: url(../../images/backgroundAbi.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: 70% 70%;
+    background-size: 100% 100%;
     z-index: 3;
 
   }
 
   .bodyAboutMe {
-    width: 100vw;
+    width: 90vw;
+    height: 100vh;
   }
 
   .textP p {
     font-size: 1rem;
     line-height: 2em;
-    text-align: center;
+    text-align: left;
 
     /* color: #FFFFFF; */
   }
 
+
+
+  .hobbies h2 {
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: 5vw;
+  }
 
   .mePicture {
     width: 30%;
@@ -220,13 +198,20 @@
 
   .hobbies {
     width: 90vw;
+  }
 
+  .containerHobbies {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    justify-content: space-evenly;
+    width: 90;
+    height: 30vh;
   }
 
   .containerHobbies img {
-    width: 10%;
-    height: 10%;
-    margin: 2vw;
+    height: 20%;
+    margin: 1vw;
+
 
 
   }

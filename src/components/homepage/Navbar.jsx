@@ -1,6 +1,9 @@
 import React from "react";
-import "../../assets/styles/homepage/NavBar.css";
+
 import ArrowDown from "../../assets/icon/arrowDown.svg";
+import arrowUp from "../../assets/icon/arrowUp.svg";
+import "../../assets/styles/homepage/NavBar.css";
+
 import { Link } from "react-scroll";
 // import { useLocation } from "react-router-dom";
 const Navbar = () => {
@@ -55,44 +58,17 @@ const Navbar = () => {
           onClick={() => window.scrollTo(0, 1800)}
         />
       </div>
+      <div className="containerBtnUp">
+        <img
+          className="btnUp"
+          src={arrowUp}
+          alt="Arrow"
+          onClick={() => window.scrollTo(0, 0)}
+        />
+      </div>
+      <div className="objectLineUpFoo"></div>
     </div>
   );
 };
 
 export default Navbar;
-
-// return (
-//     <div className="navBar">
-//       <div className="objectLineUp"></div>
-//       <div className="initial">
-//         <Link to="initialPage" spy={true} smooth={true} className="homeInitial">
-//           Inicio
-//         </Link>
-//       </div>
-//       <div className="aboutMe">
-//         <Link to="aboutPage" spy={true} smooth={true} className="homeAbout">
-//           Sobre Mi
-//         </Link>
-//       </div>
-//       <div className="proyects">
-//         <a href="/" className="homeProyects">
-//           Proyectos
-//         </a>
-//       </div>
-//       <div className="contact">
-//         <a href="/" className="homeContac">
-//           Contacto
-//         </a>
-//       </div>
-//       <div className="objectLineDown"></div>
-//       <div className="containerBtnDown">
-//         <img
-//           className="btnDown"
-//           src={ArrowDown}
-//           alt="Arrow"
-//           onClick={() => window.scrollTo(0, 1500)}
-//         />
-//       </div>
-//     </div>
-//   );
-//};

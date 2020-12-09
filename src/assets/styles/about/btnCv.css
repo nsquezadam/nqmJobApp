@@ -10,14 +10,14 @@
   justify-content: space-around;
   position: absolute;
   left: 45vw;
-
-
-
+  z-index: 5;
 
 }
 
 
 .btnCv {
+  text-decoration: none;
+  text-align: center;
   display: flex;
   position: absolute;
   align-self: center;
@@ -36,5 +36,23 @@
   border-style: none;
   text-align: center;
   padding-top: 1.5vh;
+  cursor: pointer;
 
+}
+
+@media screen and (min-width: 1440px) {
+
+  .containerBtnCv {
+    width: 16.666666666666664vw;
+    height: 8.333333333333334vh;
+    left: 65vw;
+
+  }
+
+  .btnCv {
+    width: 14.722222222222223vw;
+    height: 5.444444444444445vh;
+    font-size: 1.8rem;
+    padding-top: 0.8vh;
+  }
 }
