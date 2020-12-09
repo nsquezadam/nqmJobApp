@@ -27,17 +27,7 @@
 
 }
 
-.containerNavbarAbout {
-  display: flex;
-  width: 15vw;
-  height: 100%;
-  justify-content: flex-end;
-  padding: 0;
-  margin: 0;
-  z-index: 4;
-  border: 2px solid whitesmoke;
 
-}
 
 /* logo */
 .containerLogoAboutMe {
@@ -70,7 +60,7 @@
 
   width: 100vw;
   height: 40vh;
-  margin-top: 8vh;
+  margin-top: 5vh;
   margin-left: 5vw;
 }
 
@@ -129,10 +119,10 @@
 } */
 /* hobbies */
 .hobbies {
-  margin-top: 2.5vh;
+  margin-top: 8vh;
+  width: 90vw;
   display: flex;
   flex-direction: column;
-
 }
 
 .containerHobbies {
@@ -169,7 +159,7 @@
   }
 
   .bodyAboutMe {
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
   }
 
@@ -180,6 +170,8 @@
 
     /* color: #FFFFFF; */
   }
+
+
 
   .hobbies h2 {
     text-align: left;
@@ -206,13 +198,20 @@
 
   .hobbies {
     width: 90vw;
+  }
 
+  .containerHobbies {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    justify-content: space-evenly;
+    width: 90;
+    height: 30vh;
   }
 
   .containerHobbies img {
-    width: 10%;
-    height: 10%;
-    margin: 2vw;
+    height: 20%;
+    margin: 1vw;
+
 
 
   }

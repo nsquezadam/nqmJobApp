@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "../../assets/styles/footer/footer.css";
 import sign from "../../assets/icon/firmaNqm.svg";
-// import SideBar from "./SideBar";
+import NavBar from "../homepage/Navbar";
 
 import mail from "../../assets/icon/linkContact/mail.svg";
 import twiter from "../../assets/icon/linkContact/twiter.svg";
@@ -62,7 +62,7 @@ const Footer = () => {
             <img src={sign} alt="firma" />
           </div>
         </div>
-        {/* <SideBar /> */}
+        <NavBar />
       </div>
     </Fragment>
   );

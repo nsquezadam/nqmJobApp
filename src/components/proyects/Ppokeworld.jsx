@@ -36,8 +36,8 @@ const Ppokeworld = () => {
     cssEase: "linear",
   };
   return (
-    <div id="pwView" className="containerViewCpt">
-      <body className="cptBody">
+    <body id="pwView" className="containerViewCpt">
+      <div className="cptBody">
         {/* <BtnDownP /> */}
         <div className="containerSlider">
           <Slider {...settings}>
@@ -127,8 +127,8 @@ const Ppokeworld = () => {
         </div>
 
         {/* <Footer /> */}
-      </body>
-    </div>
+      </div>
+    </body>
   );
 };
 

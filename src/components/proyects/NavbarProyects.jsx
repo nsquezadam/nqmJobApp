@@ -11,7 +11,7 @@ const NavbarProyects = () => {
   let history = useHistory();
   function handleClick() {
     console.log("accediendo");
-    history.push("/HomeProyects");
+    history.push("/");
     // <AllViewsProyects />;
   }
   return (
