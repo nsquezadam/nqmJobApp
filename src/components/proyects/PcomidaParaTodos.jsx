@@ -22,9 +22,9 @@ import sass from "../../assets/icon/tecnologiesProyects/sassO.svg";
 import mu from "../../assets/icon/tecnologiesProyects/muO.svg";
 import boots from "../../assets/icon/tecnologiesProyects/bootsO.svg";
 // boton return
-import BtnReturn from "./BtnReturn";
-import Footer from "../footer/Footer";
-import BtnDownP from "./BtnDownP";
+// import BtnReturn from "./BtnReturn";
+// import Footer from "../footer/Footer";
+// import BtnDownP from "./BtnDownP";
 
 const PcomidaParaTodos = () => {
   let settings = {
@@ -38,9 +38,9 @@ const PcomidaParaTodos = () => {
     cssEase: "linear",
   };
   return (
-    <div id="cptView" className="containerViewCpt">
-      <body className="cptBody">
-        <BtnDownP />
+    <body id="cptView" className="containerViewCpt">
+      <div className="cptBody">
+        {/* <BtnDownP /> */}
         <div className="containerSlider">
           <Slider {...settings}>
             <div className="containerImgPtc">
@@ -78,26 +78,34 @@ const PcomidaParaTodos = () => {
             <div className="containerPictTeem">
               <div className="containerImgName">
                 <a href="/">
-                  <img src={nb} alt="" className="imgCptTeem" />
+                  <img
+                    src={nb}
+                    alt="Namastheys Bastardo"
+                    className="imgCptTeem"
+                  />
                 </a>
+                <h4>UX</h4>
                 <p>Namastheys Bastardo</p>
               </div>
               <div className="containerImgName">
                 <a href="/">
-                  <img src={db} alt="" className="imgCptTeem" />
+                  <img src={db} alt="Daniela  blanco" className="imgCptTeem" />
                 </a>
-                <p>Daniela Bastardo</p>
+                <h4>Front end Developer</h4>
+                <p>Daniela Blanco</p>
               </div>
               <div className="containerImgName">
                 <a href="/">
                   <img src={am} alt="" className="imgCptTeem" />
                 </a>
+                <h4>Front end Developer</h4>
                 <p>Algris Marquez</p>
               </div>
               <div className="containerImgName">
                 <a href="/">
-                  <img src={nq} alt="" className="imgCptTeem" />
+                  <img src={nq} alt="Natalia Quezada" className="imgCptTeem" />
                 </a>
+                <h4>Front end Developer</h4>
                 <p>Natalia Quezada</p>
               </div>
             </div>
@@ -135,12 +143,12 @@ const PcomidaParaTodos = () => {
               <div className="lineSep"></div>
             </div>
           </div>
-          <BtnReturn />
+          {/* <BtnReturn /> */}
         </div>
 
-        <Footer />
-      </body>
-    </div>
+        {/* <Footer /> */}
+      </div>
+    </body>
   );
 };
 

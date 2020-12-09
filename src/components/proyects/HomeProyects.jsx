@@ -1,13 +1,24 @@
 import React from "react";
+// import { useHistory } from "react-router-dom";
 import "../../assets/styles/proyects/homeProyects.css";
 import cpt from "../../assets/images/proyects/cpt.svg";
 import bk from "../../assets/images/proyects/bk.svg";
 import wit from "../../assets/images/proyects/wit.svg";
 import pkw from "../../assets/images/proyects/pkw.svg";
 import BtnMas from "./BtnMas";
+
+// import AllViewsProyects from "./AllViewsProyects";
+
 // import Navbar from "../homepage/Navbar";
 
-const HomeProyects = () => {
+const HomeProyects = (props) => {
+  // let history = useHistory();
+  function handleClick() {
+    console.log("accediendo");
+    // history.push({ AllViewsproyects });
+    // <AllViewsProyects />;
+  }
+
   return (
     <body id="homeProyect" className="bodyHomeProyects">
       <h2>Proyectos</h2>
@@ -17,7 +28,7 @@ const HomeProyects = () => {
           <h3>"Comida Para Todos"</h3>
           <img className="imgCpt" src={cpt} alt="CPT" />
           <div className="containerBtnMasP">
-            <BtnMas />
+            <BtnMas click={handleClick} />
           </div>
         </div>
         <div className="containerProyect">

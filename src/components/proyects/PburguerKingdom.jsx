@@ -20,9 +20,9 @@ import css from "../../assets/icon/tecnologiesProyects/cssO.svg";
 import firebase from "../../assets/icon/tecnologiesProyects/firebaseO.svg";
 
 // boton return
-import BtnReturn from "./BtnReturn";
-import Footer from "../footer/Footer";
-import BtnDownP from "./BtnDownP";
+// import BtnReturn from "./BtnReturn";
+// import Footer from "../footer/Footer";
+// import BtnDownP from "./BtnDownP";
 
 const PburguerKingdom = () => {
   let settings = {
@@ -36,9 +36,9 @@ const PburguerKingdom = () => {
     cssEase: "linear",
   };
   return (
-    <div id="cptView" className="containerViewCpt">
+    <div id="bkView" className="containerViewCpt">
       <body className="cptBody">
-        <BtnDownP />
+        {/* <BtnDownP /> */}
         <div className="containerSlider">
           <Slider {...settings}>
             <div className="containerImgPtc">
@@ -65,12 +65,10 @@ const PburguerKingdom = () => {
               Burger Kingdom web app, ha sido creada a partir de la idea de
               facilitar a meseros y cocineros la tarea de coordinación de
               pedidos. Nuestro proyecto está inspirado directamente en el
-              universo "Disney Pixar", trasladándonos a un local temático,
-              motivo que la aplicación acompaña con imágenes de personajes y
-              referencias a películas emblemáticas del estudio. La idea de fondo
-              es que la app cuenta con una usabilidad adecuada para todos los
-              trabajadores del local, así evitar errores y mejorar los tiempos
-              de procesos. Éste proyecto ha sido desarrollado con React js.
+              universo "Disney Pixar".La idea de fondo es que la app cuenta con
+              una usabilidad adecuada para todos los trabajadores del local, así
+              evitar errores y mejorar los tiempos de procesos. Éste proyecto ha
+              sido desarrollado con React js.
             </p>
           </div>
           <div className="containerTeemCpt">
@@ -80,18 +78,21 @@ const PburguerKingdom = () => {
                 <a href="https://aneacevedo-d238a.web.app/">
                   <img src={aa} alt="Anelisse Acevedo" className="imgCptTeem" />
                 </a>
+                <p>Front end Developer</p>
                 <p>Anelisse Acevedo</p>
               </div>
               <div className="containerImgName">
                 <a href="https://paula-frias.web.app/">
                   <img src={pf} alt="Paula Frias" className="imgCptTeem" />
                 </a>
+                <p>Front end Developer</p>
                 <p>Paula Frias</p>
               </div>
               <div className="containerImgName">
                 <a href="/">
-                  <img src={nq} alt="" className="imgCptTeem" />
+                  <img src={nq} alt="Natalia quezada" className="imgCptTeem" />
                 </a>
+                <p>Front end Developer</p>
                 <p>Natalia Quezada</p>
               </div>
             </div>
@@ -112,23 +113,23 @@ const PburguerKingdom = () => {
             <h2>Ver Más</h2>
             <div className="containerDeploy">
               <p>Link Deploy</p>
-              <a href="https://comida-para-todos-9fe1e.web.app/">
-                https://comida-para-todos-9fe1e.web.app/
+              <a href="https://burguer-queen-50550.web.app/">
+                https://burguer-queen-50550.web.app/
               </a>
               <div className="lineSep"></div>
             </div>
             <div className="containerGitHub">
               <p>Link Repositorio GitHub</p>
-              <a href="https://github.com/nsquezadam/comida-para-todos-">
-                https://github.com/nsquezadam/comida-para-todos-
+              <a href="https://github.com/nsquezadam/Burger-Queen/tree/develop">
+                https://github.com/nsquezadam/Burger-Queen/tree/develop
               </a>
               <div className="lineSep"></div>
             </div>
           </div>
-          <BtnReturn />
+          {/* <BtnReturn /> */}
         </div>
 
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </div>
   );

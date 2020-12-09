@@ -7,40 +7,44 @@
 }
 
 .cptBody {
-  width: 100vw;
+  width: 85vw;
   height: auto;
   /* display: flex;
   flex-direction: column; */
 }
 
 .slick-slider {
-  width: 100vw;
+  width: 85vw;
   align-self: center;
   margin-top: 5vh;
   height: auto;
   margin-bottom: 5vh;
 }
 
+.slick-slide img {
+  width: 75vw;
+  align-self: center;
+  padding-left: 10vw;
+}
 
-
-.containerImgPtc {
+/* .containerImgPtc {
   width: 90vw;
   height: auto;
   margin-top: 2vh;
   margin-left: 5vw;
-}
+} */
 
-.imgSliderPtc {
+/* .imgSliderPtc {
   width: 90%;
   height: 90%;
   align-self: center;
-}
+} */
 
 .containerSection {
   display: flex;
   flex-direction: column;
   font-family: "sarabun";
-  width: 100vw;
+  width: 80vw;
   height: auto;
 }
 
@@ -53,8 +57,8 @@
 
 .containerPtextcpt {
   margin-top: 2vh;
-  width: 100vw;
-  height: 35vh;
+  width: 80vw;
+  height: auto;
   background: linear-gradient(93.88deg, #4A2C40 14.99%, #7D3780 69.18%, rgba(125, 55, 128, 0.64613) 90.45%, rgba(125, 55, 128, 0.576729) 101.39%, rgba(125, 55, 128, 0) 101.39%, rgba(125, 55, 128, 0.336851) 101.39%);
   display: flex;
   justify-content: center;
@@ -74,7 +78,7 @@
 /* teem */
 .containerTeemCpt {
   display: flex;
-  width: 100vw;
+  width: 80vw;
   height: auto;
   flex-direction: column;
   margin-bottom: 3vh;
@@ -92,19 +96,30 @@
 
 .containerPictTeem {
   margin-top: 4vh;
-  width: 100vw;
+  width: 80vw;
   height: auto;
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
 
 
 }
+
+.containerImgName h4 {
+  font-size: 1.5rem;
+  color: #E9BD43;
+}
+
 
 .containerImgName {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  width: 30vw;
+  height: auto;
+  margin-bottom: 3vh;
 }
 
 .containerImgName a {
@@ -130,7 +145,7 @@
 
 /* tecnologias */
 .containerTecnologies {
-  width: 100vh;
+  width: 80vh;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -145,7 +160,7 @@
 
 .containerGralImgTec {
 
-  width: 100vw;
+  width: 80vw;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -156,6 +171,7 @@
   justify-content: space-between;
   padding-left: 5vw;
   padding-right: 5vw;
+  flex-wrap: wrap;
 
 }
 
@@ -168,14 +184,14 @@
 } */
 
 .containerGralImgTec img {
-  width: 7%;
-  height: 7%;
+  width: 10%;
+  height: 10%;
 }
 
 /* ver mas  enlaces*/
 
 .containerLinks {
-  width: 100vw;
+  width: 80vw;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -191,7 +207,7 @@
 
 .containerDeploy {
   margin-top: 2vh;
-  width: 65vw;
+  width: 75vw;
   margin-bottom: 3vh;
 }
 
@@ -208,6 +224,7 @@
   color: #7D3780;
   font-size: 1.6rem;
   margin-left: 3vw;
+  text-align: justify;
 
 
 }
@@ -221,7 +238,7 @@
 }
 
 .containerGitHub {
-  width: 65vw;
+  width: 75vw;
   margin-bottom: 2vh;
   margin-top: 2vh;
 }
@@ -239,34 +256,31 @@
   color: #7D3780;
   font-size: 1.6rem;
   margin-left: 3vw;
+  text-align: justify;
 
 
 }
 
 @media only screen and (min-width:1440px) {
+  .cptBody {
+    width: 90vw;
+  }
+
   .slick-slider {
-    width: 100vw;
-    align-self: center;
+    width: 90vw;
     margin-top: 5vh;
   }
 
   .slick-slide img {
-    width: 80vw;
+    width: 90vw;
     align-self: center;
     padding-left: 10vw;
   }
 
-  .containerSlider {
-    width: 100vw;
-    height: auto;
-    margin-bottom: 4vh;
 
-  }
 
-  .imgSliderPtc {
-    width: 70%;
-    height: 70%;
-    align-self: center;
+  .containerSection {
+    width: 90vw;
   }
 
   .containerSection h2 {
@@ -276,8 +290,8 @@
 
   .containerPtextcpt {
     margin-top: 5vh;
+    width: 90vw;
 
-    height: 20vh;
 
   }
 
