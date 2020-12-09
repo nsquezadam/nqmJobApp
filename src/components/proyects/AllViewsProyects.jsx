@@ -1,6 +1,6 @@
 import React from "react";
 import PcomidaParaTodos from "./PcomidaParaTodos";
-import Footer from "../footer/Footer";
+// import Footer from "../footer/Footer";
 import Pwit from "./Pwit";
 import Ppokeworld from "./Ppokeworld";
 import PburguerKingdom from "./PburguerKingdom";
@@ -14,7 +14,7 @@ const AllViewsProyects = () => {
       <Pwit />
       <Ppokeworld />
       <NavBarProyects />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

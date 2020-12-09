@@ -14,9 +14,10 @@
 }
 
 .slick-slider {
+  padding-top: 3vh;
   width: 85vw;
   align-self: center;
-  margin-top: 5vh;
+  margin-top: 10vh;
   height: auto;
   margin-bottom: 5vh;
 }

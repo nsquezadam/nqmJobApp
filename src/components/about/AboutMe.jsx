@@ -12,7 +12,7 @@ import hobmusic from "../../assets/icon/hobbies/hobmusic.svg";
 import hobnetflix from "../../assets/icon/hobbies/hobnetflix.svg";
 import hobpaseo from "../../assets/icon/hobbies/hobpaseo.svg";
 
-// import Navbar from "../homepage/Navbar";
+import Navbar from "../homepage/Navbar";
 
 const AboutMe = () => {
   return (
@@ -57,7 +57,7 @@ const AboutMe = () => {
           </div>
         </div>
         {/* <div className="containerNavbarAbout"> */}
-        {/* <Navbar /> */}
+        <Navbar />
         {/* </div> */}
       </body>
     </Fragment>

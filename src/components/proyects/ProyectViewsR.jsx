@@ -8,7 +8,7 @@ const ProyectViewsR = () => {
     <Fragment>
       <Router>
         <Switch>
-          <Route path="/HomeProyects" exact>
+          <Route path="/" exact>
             <HomeProyects />
           </Route>
 
