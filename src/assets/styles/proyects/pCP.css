@@ -9,7 +9,8 @@
 .cptBody {
   width: 85vw;
   height: auto;
-
+  /* display: flex;
+  flex-direction: column; */
 }
 
 .slick-slider {
@@ -27,16 +28,14 @@
   padding-left: 10vw;
 }
 
-
-
 /* .containerImgPtc {
-  width: 850vw;
+  width: 90vw;
   height: auto;
   margin-top: 2vh;
   margin-left: 5vw;
-} */
+}
 
-/* .imgSliderPtc {
+.imgSliderPtc {
   width: 90%;
   height: 90%;
   align-self: center;
@@ -96,21 +95,22 @@
 
 }
 
+.containerImgName h4 {
+  font-size: 1.5rem;
+  color: #E9BD43;
+}
+
 .containerPictTeem {
   margin-top: 4vh;
   width: 80vw;
   height: auto;
   display: flex;
   justify-content: space-around;
-  flex-direction: row;
-  flex-wrap: wrap;
-
 
 
 }
 
 .containerImgName {
-
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -126,18 +126,11 @@
 
 }
 
-
 .containerImgName a img {
   width: 80%;
   height: 80%;
 
-}
 
-
-
-.containerImgName h4 {
-  font-size: 1.5rem;
-  color: #E9BD43;
 }
 
 .containerImgName p {
@@ -177,7 +170,6 @@
   padding-left: 5vw;
   padding-right: 5vw;
   flex-wrap: wrap;
-
 }
 
 /* .containerImgTec {
@@ -282,6 +274,7 @@
     padding-left: 10vw;
   }
 
+
   .containerSection {
     width: 90vw;
   }
@@ -294,7 +287,6 @@
   .containerPtextcpt {
     margin-top: 5vh;
     width: 90vw;
-
 
   }
 
