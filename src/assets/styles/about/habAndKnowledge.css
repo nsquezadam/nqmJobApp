@@ -90,19 +90,18 @@
 
 @media screen and (min-width: 1440px) {
 
-  .containerSkillsThirdCape {
-    width: 100vw;
-    height: 100vh;
+  .habAndKnowCapeFirts {
+
     background-image: url(../../images/backgroundAbi.svg);
     background-position: 50% 50%;
-    background-size: 100% 100%;
-    z-index: 4;
+    z-index: 1;
   }
 
-  /* logo */
-  .containerLogoHabAndKnow {
-    width: 7vw;
+  .bodyHabAndKnow {
+    width: 90vw;
+
   }
+
 
   .containerTitleAndHabandKnow {
     margin-top: 18vh;
@@ -148,10 +147,10 @@
 
   .containerKnow img {
     margin-top: 2vh;
-    width: 7%;
-    height: 7%;
+    width: 4%;
+    height: 4%;
     margin-left: 8vw;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
   }
 
 
