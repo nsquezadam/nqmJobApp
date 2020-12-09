@@ -10,14 +10,14 @@
   justify-content: space-around;
   position: absolute;
   left: 45vw;
-
-
-
+  z-index: 5;
 
 }
 
 
 .btnCv {
+  text-decoration: none;
+  text-align: center;
   display: flex;
   position: absolute;
   align-self: center;
@@ -36,6 +36,7 @@
   border-style: none;
   text-align: center;
   padding-top: 1.5vh;
+  cursor: pointer;
 
 }
 

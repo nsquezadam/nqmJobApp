@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   padding: 0;
   margin: 0;
@@ -11,7 +11,7 @@
 }
 
 .containerSignLinks {
-  margin-top: 35vh;
+  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   width: 85vw;
@@ -76,26 +76,27 @@
 @media only screen and (min-width:1440px) {
 
   .containerSignLinks {
-    margin-top: 25vh;
-    width: 90vw;
+    margin-top: 10vh;
+    width: 80vw;
 
   }
 
   .lineUP {
-    width: 50vw;
+    width: 55vw;
     height: 0;
     border: 1px solid #E9BD43;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
 
   }
 
 
 
   .linkIcons {
-    width: 5%;
-    height: 5%;
+    width: 3%;
+    height: 3%;
     margin-top: 1vh;
-    margin-left: 1vw;
+    margin-left: 0;
+
 
   }
 
@@ -104,7 +105,7 @@
     width: 20vw;
     height: auto;
     margin-left: 10vw;
-    margin-top: 3vh;
+    margin-top: 2vh;
     transform: rotate(-10deg)
   }
 
