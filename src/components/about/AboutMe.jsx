@@ -56,9 +56,8 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
-        {/* <div className="containerNavbarAbout"> */}
+
         <Navbar />
-        {/* </div> */}
       </body>
     </Fragment>
   );
