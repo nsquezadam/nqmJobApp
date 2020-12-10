@@ -3,6 +3,7 @@
   width: 100vw;
   height: auto;
   display: flex;
+
   top: 0;
   justify-content: center;
   align-items: center;
@@ -13,6 +14,7 @@
   position: relative;
   background: #ffffff;
   z-index: 10;
+
 }
 
 
@@ -46,6 +48,24 @@ img {
 
 
 @media only screen and (min-width:1440px) {
+
+  .wrapper {
+    width: 100vw;
+
+    background-color: black;
+    z-index: 9;
+  }
+
+  .window {
+    z-index: 10;
+    background: #ffffff;
+    width: 90vw;
+  }
+
+
+
+
+
   img {
     width: 80%;
     height: 80%;
@@ -54,17 +74,19 @@ img {
   .returnBtn {
     position: fixed;
     top: 2vh;
-    right: 2.4vw;
+    right: 6.5vw;
     border-style: none;
     text-align: center;
-    z-index: 11;
+    z-index: 15;
   }
+
+
 
   .returnBtnDown {
     position: absolute;
     bottom: 20vh;
-    right: 3.4vw;
+    right: 2.3vw;
     text-align: center;
-    z-index: 11,
+    z-index: 15,
   }
 }

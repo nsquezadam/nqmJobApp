@@ -1,8 +1,10 @@
 import React from "react";
-import "../../assets/styles/proyects/pWIT.css";
+// import "../../assets/styles/proyects/pWIT.css";
+import "../../assets/styles/proyects/pCP.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
 //imagenes proyecto
 import wit1 from "../../assets/images/proyects/WIT/WIT1.svg";
 import wit2 from "../../assets/images/proyects/WIT/WIT2.svg";

@@ -1,5 +1,6 @@
 import React from "react";
-import "../../assets/styles/proyects/pBK.css";
+// import "../../assets/styles/proyects/pBK.css";
+import "../../assets/styles/proyects/pCP.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
