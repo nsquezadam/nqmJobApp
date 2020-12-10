@@ -12,7 +12,7 @@ import PburguerKingdom from "./PburguerKingdom";
 import Pwit from "./Pwit";
 import Ppokeworld from "./Ppokeworld";
 
-// import AllViewsProyects from "./AllViewsProyects";
+import AllViewsProyects from "./AllViewsProyects";
 
 import Navbar from "../homepage/Navbar";
 
@@ -43,10 +43,11 @@ const HomeProyects = () => {
             <div className="containerBtnMasP">
               <BtnMas click={toggle} />
               <Modal active={active} toggle={toggle}>
-                <PcomidaParaTodos />
+                <AllViewsProyects />
+                {/* <PcomidaParaTodos />
                 <PburguerKingdom />
                 <Pwit />
-                <Ppokeworld />
+                <Ppokeworld /> */}
               </Modal>
             </div>
           </div>
@@ -56,10 +57,11 @@ const HomeProyects = () => {
             <div className="containerBtnMasP">
               <BtnMas click={toggle} />
               <Modal active={active} toggle={toggle}>
-                <PcomidaParaTodos />
+                <AllViewsProyects />
+                {/* <PcomidaParaTodos />
                 <PburguerKingdom />
                 <Pwit />
-                <Ppokeworld />
+                <Ppokeworld /> */}
               </Modal>
             </div>
           </div>
@@ -69,10 +71,11 @@ const HomeProyects = () => {
             <div className="containerBtnMasP">
               <BtnMas click={toggle} />
               <Modal active={active} toggle={toggle}>
-                <PcomidaParaTodos />
+                <AllViewsProyects />
+                {/* <PcomidaParaTodos />
                 <PburguerKingdom />
                 <Pwit />
-                <Ppokeworld />
+                <Ppokeworld /> */}
               </Modal>
             </div>
           </div>
@@ -82,10 +85,11 @@ const HomeProyects = () => {
             <div className="containerBtnMasP">
               <BtnMas click={toggle} />
               <Modal active={active} toggle={toggle}>
-                <PcomidaParaTodos />
+                <AllViewsProyects />
+                {/* <PcomidaParaTodos />
                 <PburguerKingdom />
                 <Pwit />
-                <Ppokeworld />
+                <Ppokeworld /> */}
               </Modal>
             </div>
           </div>
