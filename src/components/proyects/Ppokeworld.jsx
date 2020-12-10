@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 //imagenes proyecto
-import pw1 from "../../assets/images/proyects/PW/PW1.svg";
+import pw1 from "../../assets/images/proyects/PW/PW1-1.svg";
 import pw2 from "../../assets/images/proyects/PW/PW2.svg";
 import pw3 from "../../assets/images/proyects/PW/PW3.svg";
 import pw4 from "../../assets/images/proyects/PW/PW4.svg";
@@ -19,7 +19,11 @@ import nq from "../../assets/images/proyects/NQ.svg";
 import js from "../../assets/icon/tecnologiesProyects/jsO.svg";
 import html5 from "../../assets/icon/tecnologiesProyects/html5O.svg";
 import css from "../../assets/icon/tecnologiesProyects/cssO.svg";
-
+// link contact
+import mail from "../../assets/icon/linkContact/mail.svg";
+import twiter from "../../assets/icon/linkContact/twiter.svg";
+import linkedin from "../../assets/icon/linkContact/linkedin.svg";
+import gitHub from "../../assets/icon/linkContact/gitHub.svg";
 // boton return
 // import BtnReturn from "./BtnReturn";
 // import Footer from "../footer/Footer";
@@ -57,7 +61,7 @@ const Ppokeworld = () => {
           </Slider>
         </div>
         <div className="containerSection">
-          <h2>"PokeWorld</h2>
+          <h2 className="titleSection">"PokeWorld"</h2>
           <div className="containerPtextcpt">
             <p>
               Diseño y Creación de pagina web que ofrece una pokepedia, donde
@@ -97,37 +101,118 @@ const Ppokeworld = () => {
               </div>
             </div>
           </div>
-          <div className="containerTecnologies">
-            <h2>Tecnologías</h2>
-            <div className="containerGralImgTec">
-              <img src={js} alt="js" className="imgTec" />
+          <div className="containerTec-linksMov">
+            <div className="containerTecnologies">
+              <h2>"PokeWorld"</h2>
+              <h3>Tecnologías</h3>
+              <div className="containerGralImgTec">
+                <img src={js} alt="js" className="imgTec" />
 
-              <img src={html5} alt="react" className="imgTec" />
+                <img src={html5} alt="react" className="imgTec" />
 
-              <img src={css} alt="css" className="imgTec" />
+                <img src={css} alt="css" className="imgTec" />
+              </div>
             </div>
+            <div className="containerLinks">
+              <h3>Ver Más</h3>
+              <div className="containerDeploy">
+                <p>Link Deploy</p>
+                <a href="https://nsquezadam.github.io/SCL014-data-lovers/">
+                  https://nsquezadam.github.io/SCL014-data-lovers/
+                </a>
+                <div className="lineSep"></div>
+              </div>
+              <div className="containerGitHub">
+                <p>Link Repositorio GitHub</p>
+                <a href="https://github.com/nsquezadam/SCL014-data-lovers">
+                  https://github.com/nsquezadam/SCL014-data-lovers
+                </a>
+                <div className="lineSep"></div>
+              </div>
+            </div>
+            {/* <BtnReturn /> */}
           </div>
-          <div className="containerLinks">
-            <h2>Ver Más</h2>
-            <div className="containerDeploy">
-              <p>Link Deploy</p>
-              <a href="https://nsquezadam.github.io/SCL014-data-lovers/">
-                https://nsquezadam.github.io/SCL014-data-lovers/
-              </a>
-              <div className="lineSep"></div>
-            </div>
-            <div className="containerGitHub">
-              <p>Link Repositorio GitHub</p>
-              <a href="https://github.com/nsquezadam/SCL014-data-lovers">
-                https://github.com/nsquezadam/SCL014-data-lovers
-              </a>
-            </div>
-          </div>
-          {/* <BtnReturn /> */}
+
+          {/* <Footer /> */}
         </div>
-
-        {/* <Footer /> */}
       </div>
+      <div className="containerTec-linksDesk">
+        <div className="containerTecnologiesDesk">
+          <h2>"PokeWorld"</h2>
+          <h3>Tecnologías</h3>
+          <div className="containerGralImgTecDesk">
+            <img src={js} alt="js" className="imgTec" />
+
+            <img src={html5} alt="react" className="imgTec" />
+
+            <img src={css} alt="css" className="imgTec" />
+          </div>
+        </div>
+        <div className="containerLinksDesk">
+          <h3>Ver Más</h3>
+          <div className="containerDepaGit">
+            <p>Link Deploy</p>
+            <a href="https://nsquezadam.github.io/SCL014-data-lovers/">
+              https://nsquezadam.github.io/SCL014-data-lovers/
+            </a>
+            <div className="lineSepdesk"></div>
+          </div>
+          <div className="containerDepaGit">
+            <p>Link Repositorio GitHub</p>
+            <a href="https://github.com/nsquezadam/comida-para-todos-">
+              https://github.com/nsquezadam/SCL014-data-lovers
+            </a>
+            <div className="lineSepdesk"></div>
+          </div>
+        </div>
+        <div className="containerLinksContactDesk">
+          <div className="containerLinksContactDetails">
+            <div className="contImgLinks">
+              <a href="mailto:nsquezadam@gmail.com" className="linkTo">
+                <img
+                  src={mail}
+                  alt="nsquezadam@gmail.com"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a
+                href="https://twitter.com/Natalia79796659?s=08"
+                className="linkTo"
+              >
+                <img
+                  src={twiter}
+                  alt="@Natalia79796659"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a
+                href="https://www.linkedin.com/in/nataliaquezadam"
+                className="linkTo"
+              >
+                <img
+                  src={linkedin}
+                  alt="nataliaquezadam"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a href="https://github.com/nsquezadam" className="linkTo">
+                <img src={gitHub} alt="nsquezadam" className="linkIcons" />
+              </a>
+            </div>
+          </div>
+          <div className="lineUPdesk"></div>
+        </div>
+      </div>
+      <div className="containerNavbar"></div>
     </body>
   );
 };

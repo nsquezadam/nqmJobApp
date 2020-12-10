@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
 //imagenes proyecto
-import wit1 from "../../assets/images/proyects/WIT/WIT1.svg";
+import wit1 from "../../assets/images/proyects/WIT/WIT1-1.svg";
 import wit2 from "../../assets/images/proyects/WIT/WIT2.svg";
 import wit3 from "../../assets/images/proyects/WIT/WIT3.svg";
 import wit4 from "../../assets/images/proyects/WIT/WIT4.svg";
@@ -20,7 +20,11 @@ import js from "../../assets/icon/tecnologiesProyects/jsO.svg";
 import html5 from "../../assets/icon/tecnologiesProyects/html5O.svg";
 import css from "../../assets/icon/tecnologiesProyects/cssO.svg";
 import firebase from "../../assets/icon/tecnologiesProyects/firebaseO.svg";
-
+// link contact
+import mail from "../../assets/icon/linkContact/mail.svg";
+import twiter from "../../assets/icon/linkContact/twiter.svg";
+import linkedin from "../../assets/icon/linkContact/linkedin.svg";
+import gitHub from "../../assets/icon/linkContact/gitHub.svg";
 // boton return
 // import BtnReturn from "./BtnReturn";
 // import Footer from "../footer/Footer";
@@ -128,6 +132,86 @@ const Pwit = () => {
 
         {/* <Footer /> */}
       </div>
+      <div className="containerTec-linksDesk">
+        <div className="containerTecnologiesDesk">
+          <h2>"WIT"</h2>
+          <h3>Tecnologías</h3>
+          <div className="containerGralImgTecDesk">
+            <img src={js} alt="js" className="imgTec" />
+
+            <img src={html5} alt="html5" className="imgTec" />
+
+            <img src={css} alt="css" className="imgTec" />
+
+            <img src={firebase} alt="firebase" className="imgTec" />
+          </div>
+        </div>
+
+        <div className="containerLinksDesk">
+          <h3>Ver Más</h3>
+          <div className="containerDepaGit">
+            <p>Link Deploy</p>
+            <a href="https://jeniffergenoves.github.io/SCL014-social-network/src/">
+              https://jeniffergenoves.github.io/SCL014-social-network/src/
+            </a>
+            <div className="lineSepdesk"></div>
+          </div>
+          <div className="containerDepaGit">
+            <p>Link Repositorio GitHub</p>
+            <a href="https://github.com/nsquezadam/SCL014-social-network/tree/Desarrollo">
+              https://github.com/nsquezadam/SCL014-social-network/
+            </a>
+            <div className="lineSepdesk"></div>
+          </div>
+        </div>
+        <div className="containerLinksContactDesk">
+          <div className="containerLinksContactDetails">
+            <div className="contImgLinks">
+              <a href="mailto:nsquezadam@gmail.com" className="linkTo">
+                <img
+                  src={mail}
+                  alt="nsquezadam@gmail.com"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a
+                href="https://twitter.com/Natalia79796659?s=08"
+                className="linkTo"
+              >
+                <img
+                  src={twiter}
+                  alt="@Natalia79796659"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a
+                href="https://www.linkedin.com/in/nataliaquezadam"
+                className="linkTo"
+              >
+                <img
+                  src={linkedin}
+                  alt="nataliaquezadam"
+                  className="linkIcons"
+                />
+              </a>
+            </div>
+
+            <div className="contImgLinks">
+              <a href="https://github.com/nsquezadam" className="linkTo">
+                <img src={gitHub} alt="nsquezadam" className="linkIcons" />
+              </a>
+            </div>
+          </div>
+          <div className="lineUPdesk"></div>
+        </div>
+      </div>
+      <div className="containerNavbar"></div>
     </body>
   );
 };
