@@ -7,10 +7,10 @@ import wit from "../../assets/images/proyects/wit.svg";
 import pkw from "../../assets/images/proyects/pkw.svg";
 import BtnMas from "./BtnMas";
 import Modal from "./Modal";
-import PcomidaParaTodos from "./PcomidaParaTodos";
-import PburguerKingdom from "./PburguerKingdom";
-import Pwit from "./Pwit";
-import Ppokeworld from "./Ppokeworld";
+// import PcomidaParaTodos from "./PcomidaParaTodos";
+// import PburguerKingdom from "./PburguerKingdom";
+// import Pwit from "./Pwit";
+// import Ppokeworld from "./Ppokeworld";
 
 import AllViewsProyects from "./AllViewsProyects";
 
