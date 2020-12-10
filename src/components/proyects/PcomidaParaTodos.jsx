@@ -25,7 +25,7 @@ import boots from "../../assets/icon/tecnologiesProyects/bootsO.svg";
 // import BtnReturn from "./BtnReturn";
 // import Footer from "../footer/Footer";
 // import BtnDownP from "./BtnDownP";
-import NavBar from "../proyects/NavbarProyects";
+import NavBarProyects from "../proyects/NavbarProyects";
 
 const PcomidaParaTodos = () => {
   let settings = {
@@ -149,7 +149,7 @@ const PcomidaParaTodos = () => {
 
         {/* <Footer /> */}
       </div>
-      <NavBar />
+      <NavBarProyects />
     </body>
   );
 };

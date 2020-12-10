@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 //import { useHistory } from "react-router-dom";
 import "../../assets/styles/proyects/homeProyects.css";
 import cpt from "../../assets/images/proyects/cpt.svg";
@@ -6,13 +6,23 @@ import bk from "../../assets/images/proyects/bk.svg";
 import wit from "../../assets/images/proyects/wit.svg";
 import pkw from "../../assets/images/proyects/pkw.svg";
 import BtnMas from "./BtnMas";
+import Modal from "./Modal";
+import PcomidaParaTodos from "./PcomidaParaTodos";
+import PburguerKingdom from "./PburguerKingdom";
+import Pwit from "./Pwit";
+import Ppokeworld from "./Ppokeworld";
 
-//import PcomidaParaTodos from "./PcomidaParaTodos";
 // import AllViewsProyects from "./AllViewsProyects";
 
 import Navbar from "../homepage/Navbar";
 
-const HomeProyects = (props) => {
+const HomeProyects = () => {
+  const [active, setActive] = useState(false);
+
+  const toggle = () => {
+    setActive(!active);
+  };
+
   // let history = useHistory();
 
   // function handleClick() {
@@ -31,28 +41,52 @@ const HomeProyects = (props) => {
             <h3>"Comida Para Todos"</h3>
             <img className="imgCpt" src={cpt} alt="CPT" />
             <div className="containerBtnMasP">
-              <BtnMas />
+              <BtnMas click={toggle} />
+              <Modal active={active} toggle={toggle}>
+                <PcomidaParaTodos />
+                <PburguerKingdom />
+                <Pwit />
+                <Ppokeworld />
+              </Modal>
             </div>
           </div>
           <div className="containerProyect">
             <h3>"Burguer Kingdom"</h3>
             <img className="imgBk" src={bk} alt="BurguerKingdom" />
             <div className="containerBtnMasP">
-              <BtnMas />
+              <BtnMas click={toggle} />
+              <Modal active={active} toggle={toggle}>
+                <PcomidaParaTodos />
+                <PburguerKingdom />
+                <Pwit />
+                <Ppokeworld />
+              </Modal>
             </div>
           </div>
           <div className="containerProyect">
             <h3>"WIT"</h3>
             <img className="imgWit" src={wit} alt="WIT" />
             <div className="containerBtnMasP">
-              <BtnMas click />
+              <BtnMas click={toggle} />
+              <Modal active={active} toggle={toggle}>
+                <PcomidaParaTodos />
+                <PburguerKingdom />
+                <Pwit />
+                <Ppokeworld />
+              </Modal>
             </div>
           </div>
           <div className="containerProyect">
             <h3>"Pokeworld"</h3>
             <img className="imgPkw" src={pkw} alt="WIT" />
             <div className="containerBtnMasP">
-              <BtnMas click />
+              <BtnMas click={toggle} />
+              <Modal active={active} toggle={toggle}>
+                <PcomidaParaTodos />
+                <PburguerKingdom />
+                <Pwit />
+                <Ppokeworld />
+              </Modal>
             </div>
           </div>
         </div>
