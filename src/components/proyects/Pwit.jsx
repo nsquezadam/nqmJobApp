@@ -134,7 +134,7 @@ const Pwit = () => {
       </div>
       <div className="containerTec-linksDesk">
         <div className="containerTecnologiesDesk">
-          <h2>"WIT"</h2>
+          <h2>"Burguer Kingdom"</h2>
           <h3>Tecnologías</h3>
           <div className="containerGralImgTecDesk">
             <img src={js} alt="js" className="imgTec" />
