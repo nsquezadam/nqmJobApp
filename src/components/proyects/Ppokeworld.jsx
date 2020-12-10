@@ -120,7 +120,6 @@ const Ppokeworld = () => {
               <a href="https://github.com/nsquezadam/SCL014-data-lovers">
                 https://github.com/nsquezadam/SCL014-data-lovers
               </a>
-              <div className="lineSep"></div>
             </div>
           </div>
           {/* <BtnReturn /> */}

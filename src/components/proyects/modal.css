@@ -1,0 +1,70 @@
+.wrapper {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  top: 200%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.window {
+  position: relative;
+  background: #ffffff;
+  z-index: 10;
+}
+
+
+.returnBtn {
+  position: fixed;
+  top: 2vh;
+  right: 8vw;
+  border-style: none;
+  text-align: center;
+  z-index: 11;
+}
+
+
+.returnBtnDown {
+  position: absolute;
+  bottom: 15vh;
+  right: 8vw;
+  text-align: center;
+  z-index: 11,
+}
+
+
+img {
+  width: 170%;
+  height: 170%;
+}
+
+
+
+
+
+
+@media only screen and (min-width:1440px) {
+  img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .returnBtn {
+    position: fixed;
+    top: 2vh;
+    right: 2.4vw;
+    border-style: none;
+    text-align: center;
+    z-index: 11;
+  }
+
+  .returnBtnDown {
+    position: absolute;
+    bottom: 20vh;
+    right: 3.4vw;
+    text-align: center;
+    z-index: 11,
+  }
+}
