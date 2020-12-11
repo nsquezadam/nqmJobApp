@@ -62,7 +62,7 @@ const Pwit = () => {
           </Slider>
         </div>
         <div className="containerSection">
-          <h2>"WIT"</h2>
+          <h2 className="titleSection">"WIT"</h2>
           <div className="containerPtextcpt">
             <p>
               WIT está dirigido a todas las mujeres que se encuentren dentro del
@@ -134,7 +134,7 @@ const Pwit = () => {
       </div>
       <div className="containerTec-linksDesk">
         <div className="containerTecnologiesDesk">
-          <h2>"Burguer Kingdom"</h2>
+          <h2>"WIT"</h2>
           <h3>Tecnologías</h3>
           <div className="containerGralImgTecDesk">
             <img src={js} alt="js" className="imgTec" />
